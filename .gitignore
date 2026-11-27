@@ -1,0 +1,39 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Personal, local-only preview fixtures and fetch shims
+/.local/subgov-local/
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+coverage/
+.next/
+*.tsbuildinfo
+/public/third-party-licenses.txt
+.playwright-cli/
+
+# Editor and local tooling
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Workspace
+.worktree
+.worktrees
+.workspace

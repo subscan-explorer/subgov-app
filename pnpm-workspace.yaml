@@ -1,0 +1,16 @@
+allowBuilds:
+  unrs-resolver: true
+
+# SubGov uses WsProvider; it does not embed Substrate Connect's optional light client.
+# Keep its GPL-only packages out of the dependency and container distributions.
+overrides:
+  '@polkadot/rpc-provider>@substrate/connect': '-'
+  # next.config.ts disables image optimization; no native image processor is used.
+  'next>sharp': '-'
+  # Security fixes outside the ranges requested by legacy transitive consumers.
+  'decode-uri-component@<0.5.1': '0.5.1'
+  'minimatch@>=10 <11': '11.0.1'
+
+patchedDependencies:
+  # query-string 7's public API stays unchanged; the patched decoder is ESM-only.
+  query-string@7.1.3: patches/query-string@7.1.3.patch

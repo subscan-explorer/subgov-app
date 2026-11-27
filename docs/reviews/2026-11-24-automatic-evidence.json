@@ -1,0 +1,887 @@
+{
+  "date": "2026-11-24",
+  "scope": "Read-only staging UI, local fixed production UI, and public RPC. Fixture-backed local index pages are explicitly identified; no new signed transactions.",
+  "observations": [
+    {
+      "test": "referenda Active",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=active",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 3 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n#160\nDeciding\nSmall Tipper\nReferendum #160\nby 5GpePZ…YPvi · Decision period ends in 41 h\nApproval\n0.0%\n#153\nDeciding\nMedium Spender\nReferendum #153\nby 5EexvM…hy5F · Decision period elapsed\nApproval\n0.0%\n#151\nDeciding\nSmall Spender\nReferendum #151\nby 5EexvM…hy5F · Decision period elapsed\nApproval\n100.0%"
+    },
+    {
+      "test": "referenda Deciding",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=deciding",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 3 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n#160\nDeciding\nSmall Tipper\nReferendum #160\nby 5GpePZ…YPvi · Decision period ends in 41 h\nApproval\n0.0%\n#153\nDeciding\nMedium Spender\nReferendum #153\nby 5EexvM…hy5F · Decision period elapsed\nApproval\n0.0%\n#151\nDeciding\nSmall Spender\nReferendum #151\nby 5EexvM…hy5F · Decision period elapsed\nApproval\n100.0%"
+    },
+    {
+      "test": "referenda Confirming",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=confirming",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 0 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\nNo records found\n\nNo records found for this filter. Choose another status or track to see more referenda."
+    },
+    {
+      "test": "referenda Executed",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=executed",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 10 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n#116\nExecuted\nSmall Tipper\n[Small Tipper] Referendum #116\nby 5HYtDb…2bR4 · Jan 06, 2026, 01:01 AM UTC\nApproval\n100.0%\n#114\nExecuted\nBig Tipper\nReferendum #114\nby 5G1eRP…YXv1 · Dec 30, 2025, 01:50 AM UTC\nApproval\n100.0%\n#112\nExecuted\nSmall Tipper\n[Small Tipper] Referendum #112\nby 5EZmjd…J2aR · Dec 05, 2025, 06:30 AM UTC\nApproval\n100.0%\n#106\nExecuted\nSmall Tipper\nReferendum #106\nby 5GnNHt…yag8 · Sep 06, 2025, 07:29 AM UTC\nApproval\n100.0%\n#92\nExecuted\nSmall Tipper\nReferendum #92\nby 5Gq84o…sM1s · Jul 30, 2025, 06:18 PM UTC\nApproval\n0.0%\n#90\nExecuted\nSmall Tipper\nReferendum #90\nby 5Cqcym…3QaZ · Jul 29, 2025, 10:14 PM UTC\nApproval\n100.0%\n#81\nExecuted\nSmall Tipper\nReferendum #81\nby 5G99k5…4HV7 · Jul 07, 2025, 09:56 AM UTC\nApproval\n100.0%\n#14\nExecuted\nGeneral Admin\nReferendum #14\nby 5HHJX1…Pfrh · Jan 16, 2025, 03:38 PM UTC\nApproval\n100.0%\n#11\nExecuted\nSmall Tipper\nReferendum #11\nby 5FtGtq…dLEU · Dec 10, 2024, 02:17 AM UTC\nApproval\n100.0%\n#0\nExecuted\nGeneral Admin\nReferendum #0\nby 5CADNS…9APt · Feb 20, 2024, 07:55 AM UTC\nApproval\n100.0%"
+    },
+    {
+      "test": "referenda Preparing",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=preparing",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 0 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\nNo records found\n\nNo records found for this filter. Choose another status or track to see more referenda."
+    },
+    {
+      "test": "referenda Executed failed",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=executedfailed",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 0 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\nNo records found\n\nNo records found for this filter. Choose another status or track to see more referenda."
+    },
+    {
+      "test": "referenda Rejected",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=rejected",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 12 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n#158\nRejected\nSmall Tipper\nReferendum #158\nby 5Dybpo…pqqn · Nov 06, 2026, 02:21 PM UTC\nApproval\n0.0%\n#157\nRejected\nSmall Tipper\nReferendum #157\nby 5Dybpo…pqqn · Nov 06, 2026, 12:05 PM UTC\nApproval\n0.0%\n#156\nRejected\nSmall Tipper\nReferendum #156\nby 5Dybpo…pqqn · Nov 06, 2026, 12:05 PM UTC\nApproval\n0.0%\n#155\nRejected\nBig Tipper\nReferendum #155\nby 5DA4C8…epcR · Nov 06, 2026, 11:02 AM UTC\nApproval\n0.0%\n#154\nRejected\nBig Tipper\nReferendum #154\nby 5EexvM…hy5F · Nov 06, 2026, 10:57 AM UTC\nApproval\n0.0%\n#149\nRejected\nBig Tipper\nReferendum #149\nby 5CFzK3…rs9T · Nov 02, 2026, 09:51 PM UTC\nApproval\n0.0%\n#148\nRejected\nBig Tipper\nReferendum #148\nby 5CFzK3…rs9T · Nov 02, 2026, 09:44 PM UTC\nApproval\n0.0%\n#145\nRejected\nSmall Tipper\nReferendum #145\nby 5Dybpo…pqqn · Oct 30, 2026, 01:57 PM UTC\nApproval\n0.0%\n#141\nRejected\nSmall Tipper\nReferendum #141\nby 5GLzsw…aq58 · Oct 03, 2026, 07:33 PM UTC\nApproval\n0.0%\n#139\nRejected\nSmall Tipper\nReferendum #139\nby 5GLzsw…aq58 · Oct 03, 2026, 02:02 PM UTC\nApproval\n0.0%\n#138\nRejected\nSmall Tipper\nReferendum #138\nby 5GLzsw…aq58 · Oct 03, 2026, 01:32 PM UTC\nApproval\n0.0%\n#3\nRejected\nSmall Spender\nReferendum #3\nby 5Grwva…utQY · Oct 16, 2024, 08:57 AM UTC\nApproval\n23.2%"
+    },
+    {
+      "test": "referenda Cancelled",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=cancelled",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 30 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n←\n1\n2\n→\n#78\nCancelled\nSmall Tipper\nReferendum #78\nby 5CCmas…A5S8 · Jul 01, 2025, 09:31 AM UTC\nApproval\n100.0%\n#77\nCancelled\nSmall Tipper\nReferendum #77\nby 5CCmas…A5S8 · Jul 01, 2025, 08:40 AM UTC\nApproval\n0.0%\n#76\nCancelled\nRoot\nReferendum #76\nby 5DWsS4…YarJ · Jun 24, 2025, 10:38 AM UTC\nApproval\n5.9%\n#75\nCancelled\nRoot\nReferendum #75\nby 5DWsS4…YarJ · Jun 24, 2025, 10:29 AM UTC\nApproval\n18.2%\n#74\nCancelled\nRoot\nReferendum #74\nby 5D4fMi…8C5G · Jun 24, 2025, 10:10 AM UTC\nApproval\n91.6%\n#73\nCancelled\nRoot\nReferendum #73\nby 5D4fMi…8C5G · Jun 24, 2025, 10:00 AM UTC\nApproval\n54.2%\n#72\nCancelled\nRoot\nReferendum #72\nby 5CXZn6…Vv7C · Jun 24, 2025, 08:23 AM UTC\nApproval\n79.2%\n#71\nCancelled\nRoot\nReferendum #71\nby 5DoRtw…7zBL · Jun 18, 2025, 01:45 PM UTC\nApproval\n0.0%\n#70\nCancelled\nWish For Change\nReferendum #70\nby 5GnNHt…yag8 · Jun 17, 2025, 10:27 AM UTC\nApproval\n33.3%\n#49\nCancelled\nSmall Tipper\nReferendum #49\nby 5Gjdc3…GMrx · Apr 23, 2025, 06:15 AM UTC\nApproval\n0.0%\n#48\nCancelled\nSmall Spender\nReferendum #48\nby 5Gjdc3…GMrx · Apr 23, 2025, 06:13 AM UTC\nApproval\n100.0%\n#42\nCancelled\nRoot\nReferendum #42\nby 5DoWqn…CA3T · Apr 17, 2025, 05:40 AM UTC\nApproval\n0.0%\n#40\nCancelled\nRoot\nReferendum #40\nby 5DoWqn…CA3T · Apr 17, 2025, 03:00 AM UTC\nApproval\n0.0%\n#39\nCancelled\nSmall Tipper\nReferendum #39\nby 5GjUFc…cCMp · Apr 15, 2025, 09:29 AM UTC\nApproval\n0.0%\n#38\nCancelled\nBig Tipper\nReferendum #38\nby 5GnNHt…yag8 · Apr 14, 2025, 07:04 AM UTC\nApproval\n100.0%\n#37\nCancelled\nWish For Change\nReferendum #37\nby 5GZFPL…XUft · Apr 10, 2025, 09:10 AM UTC\nApproval\n97.8%\n#36\nCancelled\nMedium Spender\nReferendum #36\nby 5GLXtr…6q7x · Mar 27, 2025, 11:44 AM UTC\nApproval\n100.0%\n#35\nCancelled\nSmall Spender\nReferendum #35\nby 5Grwva…utQY · Mar 19"
+    },
+    {
+      "test": "referenda Timed out",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=timedout",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 64 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n←\n1\n2\n3\n4\n→\n#159\nTimed out\nSmall Spender\nReferendum #159\nby 5GKrte…Bs1N · Nov 08, 2026, 09:51 AM UTC\nApproval\n0.0%\n#152\nTimed out\nBig Spender\nReferendum #152\nby 5EexvM…hy5F · Nov 06, 2026, 08:02 AM UTC\nApproval\n0.0%\n#150\nTimed out\nBig Spender\nReferendum #150\nby 5CFzK3…rs9T · Nov 02, 2026, 10:40 PM UTC\nApproval\n0.0%\n#147\nTimed out\nWish For Change\nReferendum #147\nby 5Dybpo…pqqn · Oct 30, 2026, 02:52 PM UTC\nApproval\n0.0%\n#146\nTimed out\nMedium Spender\nReferendum #146\nby 5Dybpo…pqqn · Oct 30, 2026, 02:00 PM UTC\nApproval\n0.0%\n#144\nTimed out\nSmall Tipper\nReferendum #144\nby 5GLzsw…aq58 · Oct 03, 2026, 07:45 PM UTC\nApproval\n0.0%\n#143\nTimed out\nSmall Tipper\nReferendum #143\nby 5GLzsw…aq58 · Oct 03, 2026, 07:44 PM UTC\nApproval\n0.0%\n#142\nTimed out\nSmall Tipper\nReferendum #142\nby 5GLzsw…aq58 · Oct 03, 2026, 07:34 PM UTC\nApproval\n0.0%\n#140\nTimed out\nSmall Tipper\nReferendum #140\nby 5GLzsw…aq58 · Oct 03, 2026, 07:32 PM UTC\nApproval\n0.0%\n#137\nTimed out\nRoot\nReferendum #137\nby 5EsQtX…E2UC · Sep 21, 2026, 08:29 AM UTC\nApproval\n100.0%\n#136\nTimed out\nRoot\nReferendum #136\nby 5EsQtX…E2UC · Sep 21, 2026, 08:28 AM UTC\nApproval\n0.0%\n#135\nTimed out\nReferendum Killer\nReferendum #135\nby 5EsQtX…E2UC · Sep 21, 2026, 08:27 AM UTC\nApproval\n0.0%\n#134\nTimed out\nReferendum Canceller\nReferendum #134\nby 5EsQtX…E2UC · Sep 21, 2026, 08:26 AM UTC\nApproval\n0.0%\n#133\nTimed out\nSmall Spender\nReferendum #133\nby 5EsQtX…E2UC · Sep 21, 2026, 08:25 AM UTC\nApproval\n0.0%\n#132\nTimed out\nSmall Spender\nReferendum #132\nby 5EsQtX…E2UC · Sep 21, 2026, 08:24 AM UTC\nApproval\n0.0%\n#131\nTimed out\nRoot\nReferendum #131\nby 5EsQtX…E2UC · Sep 21, 2026, 08:22 AM UTC\nApproval\n0.0%\n#130\nTimed out\nWish For Change\nReferendum #130\nby 5EsQtX…E2UC · Sep 20, 2026, 05:12 PM UTC"
+    },
+    {
+      "test": "referenda Killed",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=killed",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 40 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n←\n1\n2\n→\n#104\nKilled\nMedium Spender\nLUNAR-BARK: Deploying the First Decentralized Moon Forest\nby 5C59js…8wAF · Sep 04, 2025, 04:55 PM UTC\nApproval\n0.0%\n#103\nKilled\nRoot\nReferendum #103\nby 5GnNHt…yag8 · Aug 28, 2025, 01:18 PM UTC\nApproval\n30.4%\n#102\nKilled\nRoot\nReferendum #102\nby 5EX82C…mTsV · Aug 27, 2025, 11:37 AM UTC\nApproval\n0.0%\n#101\nKilled\nRoot\nReferendum #101\nby 5D9my5…C97a · Aug 26, 2025, 06:11 PM UTC\nApproval\n0.0%\n#99\nKilled\nRoot\nReferendum #99\nby 5HpCBJ…mELF · Aug 25, 2025, 07:39 AM UTC\nApproval\n23.6%\n#98\nKilled\nRoot\nReferendum #98\nby 5HNEcC…Ye1g · Aug 25, 2025, 07:29 AM UTC\nApproval\n87.0%\n#97\nKilled\nRoot\nReferendum #97\nby 5GLFKU…Kz4w · Aug 25, 2025, 06:23 AM UTC\nApproval\n36.4%\n#93\nKilled\nSmall Spender\nReferendum #93\nby 5Gq84o…sM1s · Jul 30, 2025, 06:34 PM UTC\nApproval\n100.0%\n#89\nKilled\nRoot\nReferendum #89\nby 5CNcZi…Ejgh · Jul 29, 2025, 06:31 AM UTC\nApproval\n0.0%\n#88\nKilled\nRoot\nReferendum #88\nby 5CNcZi…Ejgh · Jul 25, 2025, 01:46 AM UTC\nApproval\n100.0%\n#87\nKilled\nRoot\nReferendum #87\nby 5Dkirv…5tew · Jul 25, 2025, 01:41 AM UTC\nApproval\n0.0%\n#86\nKilled\nSmall Tipper\nReferendum #86\nby 5CSKEe…4qc3 · Jul 14, 2025, 11:28 AM UTC\nApproval\n100.0%\n#69\nKilled\nRoot\nReferendum #69\nby 5CXZn6…Vv7C · May 29, 2025, 07:20 AM UTC\nApproval\n4.7%\n#68\nKilled\nRoot\nReferendum #68\nby 5DZG5x…ik8z · May 28, 2025, 08:07 AM UTC\nApproval\n27.8%\n#67\nKilled\nGeneral Admin\nReferendum #67\nby 5CK4sC…6Pct · May 27, 2025, 02:27 PM UTC\nApproval\n0.0%\n#66\nKilled\nLease Admin\nReferendum #66\nby 5CK4sC…6Pct · May 26, 2025, 06:25 PM UTC\nApproval\n0.0%\n#65\nKilled\nWish For Change\nReferendum #65\nby 5CK4sC…6Pct · May 26, 2025, 05:25 PM UTC\nApproval\n0.0%\n#64\nKilled\nReferendum Killer\nReferendum #64\nby 5CXUsK…eCKH · May 26, 2025, 01:20 PM UTC\nApprova"
+    },
+    {
+      "test": "track 30",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&track=30",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 41 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n←\n1\n2\n3\n→\n#160\nDeciding\nSmall Tipper\nReferendum #160\nby 5GpePZ…YPvi · Decision period ends in 41 h\nApproval\n0.0%\n#158\nRejected\nSmall Tipper\nReferendum #158\nby 5Dybpo…pqqn · Nov 06, 2026, 02:21 PM UTC\nApproval\n0.0%\n#157\nRejected\nSmall Tipper\nReferendum #157\nby 5Dybpo…pqqn · Nov 06, 2026, 12:05 PM UTC\nApproval\n0.0%\n#156\nRejected\nSmall Tipper\nReferendum #156\nby 5Dybpo…pqqn · Nov 06, 2026, 12:05 PM UTC\nApproval\n0.0%\n#145\nRejected\nSmall Tipper\nReferendum #145\nby 5Dybpo…pqqn · Oct 30, 2026, 01:57 PM UTC\nApproval\n0.0%\n#144\nTimed out\nSmall Tipper\nReferendum #144\nby 5GLzsw…aq58 · Oct 03, 2026, 07:45 PM UTC\nApproval\n0.0%\n#143\nTimed out\nSmall Tipper\nReferendum #143\nby 5GLzsw…aq58 · Oct 03, 2026, 07:44 PM UTC\nApproval\n0.0%\n#142\nTimed out\nSmall Tipper\nReferendum #142\nby 5GLzsw…aq58 · Oct 03, 2026, 07:34 PM UTC\nApproval\n0.0%\n#141\nRejected\nSmall Tipper\nReferendum #141\nby 5GLzsw…aq58 · Oct 03, 2026, 07:33 PM UTC\nApproval\n0.0%\n#140\nTimed out\nSmall Tipper\nReferendum #140\nby 5GLzsw…aq58 · Oct 03, 2026, 07:32 PM UTC\nApproval\n0.0%\n#139\nRejected\nSmall Tipper\nReferendum #139\nby 5GLzsw…aq58 · Oct 03, 2026, 02:02 PM UTC\nApproval\n0.0%\n#138\nRejected\nSmall Tipper\nReferendum #138\nby 5GLzsw…aq58 · Oct 03, 2026, 01:32 PM UTC\nApproval\n0.0%\n#118\nTimed out\nSmall Tipper\nReferendum #118\nby 5G9Js9…DUPA · Feb 09, 2026, 07:39 AM UTC\nApproval\n99.9%\n#116\nExecuted\nSmall Tipper\n[Small Tipper] Referendum #116\nby 5HYtDb…2bR4 · Jan 06, 2026, 01:01 AM UTC\nApproval\n100.0%\n#113\nTimed out\nSmall Tipper\nReferendum #113\nby 5CFh4q…4n9t · Dec 12, 2025, 07:09 AM UTC\nApproval\n100.0%\n#112\nExecuted\nSmall Tipper\n[Small Tipper] Referendum #112\nby 5EZmjd…J2aR · Dec 05, 2025, 06:30 AM UTC\nApproval\n100.0%\n#106\nExecuted\nSmall Tipper\nReferendum #106\nby 5GnNHt…yag8 · "
+    },
+    {
+      "test": "track page 2",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&track=30&page=2",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 41 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n←\n1\n2\n3\n→\n#86\nKilled\nSmall Tipper\nReferendum #86\nby 5CSKEe…4qc3 · Jul 14, 2025, 11:28 AM UTC\nApproval\n100.0%\n#83\nTimed out\nSmall Tipper\nReferendum #83\nby 5HivVV…q4pZ · Jul 10, 2025, 04:25 AM UTC\nApproval\n0.0%\n#82\nTimed out\nSmall Tipper\nReferendum #82\nby 5FHNxd…nwDQ · Jul 09, 2025, 11:27 AM UTC\nApproval\n0.0%\n#81\nExecuted\nSmall Tipper\nReferendum #81\nby 5G99k5…4HV7 · Jul 07, 2025, 09:56 AM UTC\nApproval\n100.0%\n#79\nApproved\nSmall Tipper\nReferendum #79\nby 5HivVV…q4pZ · Jul 05, 2025, 08:14 AM UTC\nApproval\n0.0%\n#78\nCancelled\nSmall Tipper\nReferendum #78\nby 5CCmas…A5S8 · Jul 01, 2025, 09:31 AM UTC\nApproval\n100.0%\n#77\nCancelled\nSmall Tipper\nReferendum #77\nby 5CCmas…A5S8 · Jul 01, 2025, 08:40 AM UTC\nApproval\n0.0%\n#63\nKilled\nSmall Tipper\nReferendum #63\nby 5CXUsK…eCKH · May 26, 2025, 01:16 PM UTC\nApproval\n0.0%\n#61\nKilled\nSmall Tipper\nReferendum #61\nby 5GpdVQ…6ky7 · May 26, 2025, 12:18 PM UTC\nApproval\n0.0%\n#60\nKilled\nSmall Tipper\nReferendum #60\nby 5GpdVQ…6ky7 · May 23, 2025, 05:46 PM UTC\nApproval\n0.0%\n#56\nKilled\nSmall Tipper\nReferendum #56\nby 5Gq84o…sM1s · May 23, 2025, 07:56 AM UTC\nApproval\n0.0%\n#54\nKilled\nSmall Tipper\nReferendum #54\nby 5Gq84o…sM1s · May 23, 2025, 06:42 AM UTC\nApproval\n0.0%\n#52\nTimed out\nSmall Tipper\nReferendum #52\nby 5Gjdc3…GMrx · May 09, 2025, 12:34 AM UTC\nApproval\n0.0%\n#49\nCancelled\nSmall Tipper\nReferendum #49\nby 5Gjdc3…GMrx · Apr 23, 2025, 06:15 AM UTC\nApproval\n0.0%\n#39\nCancelled\nSmall Tipper\nReferendum #39\nby 5GjUFc…cCMp · Apr 15, 2025, 09:29 AM UTC\nApproval\n0.0%\n#32\nKilled\nSmall Tipper\n[Small Tipper] Referendum #32 fasdfhash\nby 5Gq84o…sM1s · Mar 06, 2025, 06:48 PM UTC\nApproval\n100.0%\n#31\nKilled\nSmall Tipper\nReferendum #31\nby 5Gq84o…sM1s · Mar 06, 2025, 06:40 PM UTC\nApproval\n0.0%\n#27\nKilled\nSma"
+    },
+    {
+      "test": "track last page",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&track=30&page=3",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 41 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n#11\nExecuted\nSmall Tipper\nReferendum #11\nby 5FtGtq…dLEU · Dec 10, 2024, 02:17 AM UTC\nApproval\n100.0%\n←\n1\n2\n3\n→\nPage 3 of 3"
+    },
+    {
+      "test": "filter resets page",
+      "url": "https://subgov-staging.subscan.io/referenda/?chain=paseo&status=active&track=30",
+      "text": "Paseo Asset Hub · live\n\nReferenda\n\nLive referenda from Subscan · 1 in this view.\n\nNew proposal\nAll\nActive\nDeciding\nPreparing\nConfirming\nExecuted\nExecuted failed\nRejected\nCancelled\nTimed out\nKilled\nTrack\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\nGo to referendum number\nOpen\n#160\nDeciding\nSmall Tipper\nReferendum #160\nby 5GpePZ…YPvi · Decision period ends in 41 h\nApproval\n0.0%"
+    },
+    {
+      "test": "delegate directory",
+      "url": "https://subgov-staging.subscan.io/delegation/?chain=paseo",
+      "text": "Paseo Asset Hub · OpenGov\n\nDelegation\n\nBrowse every indexed OpenGov delegate, inspect their account activity, and delegate voting power to a specific track.\n\nMy delegations\nDelegation statistics\nDecentralized Voices\nDelegate directory\n12 indexed\nFind a delegate by address or identity\nFind\nUnnamed delegate\n5GLFKUxSXT…rmjeKz4w\nLocked for voting\n1,350 PAS\nBalance\n4,952.12 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5FjWzvDNis…GSNKQdmf\nLocked for voting\n0 PAS\nBalance\n1.91 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5GnNHt39B9…anGJyag8\nLocked for voting\n20 PAS\nBalance\n5,050.31 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5C4qRfw4xx…oc1hLfzg\nLocked for voting\n256 PAS\nBalance\n5,258.61 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5EU2XEcn6m…fq41vDWt\nLocked for voting\n21 PAS\nBalance\n99.62 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5FvfTAGRuW…R2xfVXxi\nLocked for voting\n37 PAS\nBalance\n4,947 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5DSbT62aHR…wdDxacgC\nLocked for voting\n1,000 PAS\nBalance\n5,997.99 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5HpRVegXpG…gyGFC2UL\nLocked for voting\n3,500 PAS\nBalance\n4,899.96 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5CkaA15K4E…XqYHgBfj\nLocked for voting\n0 PAS\nBalance\n4,900 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5C556QTtg1…SXtgmSmW\nLocked for voting\n0 PAS\nBalance\n0 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5ERGd5oW1g…mCSS2X5V\nLocked for voting\n0 PAS\nBalance\n4,563.98 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\nUnnamed delegate\n5CXi5kJUvf…WbRk5YMX\nLocked for voting\n0 PAS\nBalance\n0 PAS\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating."
+    },
+    {
+      "test": "delegate detail",
+      "url": "https://subgov-staging.subscan.io/delegation/5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w/?chain=paseo",
+      "text": "Delegate directory\n\nPaseo Asset Hub · OpenGov delegate\n\n5GLFKUxSXT…rmjeKz4w\nDelegate\n\nReconnect WalletConnect to Paseo Asset Hub before delegating.\n\n5GLFKUxSXTf8…4mrmjeKz4w\nVotes and holdings\nActive delegations\n1\nDelegated to them\n1 PAS\nSupporters\n1 indexed\n5CXZn6o6u6…RVkZVv7C\n1 PAS"
+    },
+    {
+      "test": "proposal precision rejected",
+      "url": "https://subgov-staging.subscan.io/referenda/new/?chain=paseo",
+      "text": "Amount supports at most 10 decimal places "
+    },
+    {
+      "test": "proposal address rejected",
+      "url": "https://subgov-staging.subscan.io/referenda/new/?chain=paseo",
+      "text": "Beneficiary must be a valid Substrate address "
+    },
+    {
+      "test": "public overview",
+      "url": "https://subgov-staging.subscan.io/user/5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w/?chain=paseo",
+      "text": "Paseo Asset Hub · account\n\n5GLFKUxSXT…rmjeKz4w\n5GLFKUxSXTf8…4mrmjeKz4w\nOverview\nVotes\nDelegations\nDeposits\nComments\nDelegation profile\nHoldings\nPAS\n4,952.12\n1\nGovernance activity\n\nNo referendum votes indexed.\n\nBalance trend (last 30 days)\n2026-11-17\n4,952.12 PAS\n2026-11-18\n4,952.12 PAS\n2026-11-19\n4,952.12 PAS\n2026-11-20\n4,952.12 PAS\n2026-11-21\n4,952.12 PAS\n2026-11-22\n4,952.12 PAS\n2026-11-23\n4,952.12 PAS\n2026-11-24\n4,952.12 PAS"
+    },
+    {
+      "test": "track cap rejected",
+      "url": "https://subgov-staging.subscan.io/referenda/new/?chain=paseo",
+      "text": "Requested value exceeds the small_tipper track limit of 250 PAS "
+    },
+    {
+      "test": "public received delegations",
+      "url": "https://subgov-staging.subscan.io/user/5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w/?chain=paseo&tab=delegations",
+      "text": "Paseo Asset Hub · account\n\n5GLFKUxSXT…rmjeKz4w\n5GLFKUxSXTf8…4mrmjeKz4w\nOverview\nVotes\nDelegations\nDeposits\nComments\nDelegating to\non-chain\n\nThis address does not delegate any track.\n\nReceived by track\non-chain\n0 · root\n0.1 PAS votes · 1 PAS capital\nDelegators\n1 indexed\n5CXZn6o6…kZVv7Croot\n1 PAS · 0.1"
+    },
+    {
+      "test": "public tab Votes",
+      "url": "https://subgov-staging.subscan.io/user/5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w/?chain=paseo&tab=votes",
+      "text": "Paseo Asset Hub · account\n\n5GLFKUxSXT…rmjeKz4w\n5GLFKUxSXTf8…4mrmjeKz4w\nOverview\nVotes\nDelegations\nDeposits\nComments\nVoting lock\nLocked by conviction voting\n1350 PAS\nUnlockable now\n1000 PAS\nVotes on record\n4\n0 · root\nlock 350 PAS\n#99\nKilled\nAye · 13 PAS · 6x · locked until #7,911,158 (~405d 6h)\n#98\nKilled\nAye · 350 PAS · 6x · locked until #8,028,528 (~413d 9h)\n#97\nKilled\nNay · 350 PAS · 3x · locked until #7,911,158 (~405d 6h)\n2 · wish for change\nlock 1350 PAS\n#96\nTimed out\nAye · 350 PAS · 2x · locked until #8,056,029 (~415d 7h)"
+    },
+    {
+      "test": "public tab Deposits",
+      "url": "https://subgov-staging.subscan.io/user/5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w/?chain=paseo&tab=deposits",
+      "text": "Paseo Asset Hub · account\n\n5GLFKUxSXT…rmjeKz4w\n5GLFKUxSXTf8…4mrmjeKz4w\nOverview\nVotes\nDelegations\nDeposits\nComments\nReferendum deposits\n\nDeposit index not available yet\n\nThe Subscan deposit index for Paseo Asset Hub is not deployed yet. Check specific referenda below; refundable deposits are read directly from the chain.\n\nCheck referenda on-chain\nReferendum numbers\nCheck"
+    },
+    {
+      "test": "profile-comments-blocked",
+      "url": "https://subgov-staging.subscan.io/user/5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w/?chain=paseo&tab=comments",
+      "text": "Paseo Asset Hub · account\n\n5GLFKUxSXT…rmjeKz4w\n5GLFKUxSXTf8…4mrmjeKz4w\nOverview\nVotes\nDelegations\nDeposits\nComments\nComing soon\n\nListing an account's comments needs support in the SubGov discussion service, which is not deployed yet. Tracked in subgov#113."
+    },
+    {
+      "test": "whitelist-polkadot-nonempty",
+      "url": "https://subgov-staging.subscan.io/whitelist/?chain=polkadot",
+      "text": "Polkadot Asset Hub\n\nWhitelisted calls\n\nCall hashes the Technical Fellowship has whitelisted. A Whitelisted Caller referendum can dispatch them with root origin; each entry is removed once dispatched.\n\n0xef74a88abb43e6282d7d71de23799cf9831676116982ee756a63a6a1d389e282\nWhitelisted Caller referenda\nDecode call"
+    },
+    {
+      "test": "treasury-paseo",
+      "url": "https://subgov-staging.subscan.io/treasury/?chain=paseo",
+      "text": "Paseo Asset Hub\n\nTreasury\n\nLive on-chain treasury spends and bounties from Subscan.\n\nTreasury account\nSubscan ↗\nPAS balance\n9,353,409.29\nUSDC balance\n0\nUSDt balance\n0\nNext spend period\nin ~717 days\nevery 3 days · block #12,398,400\nBurn per period\n0%\nNo burn on this network\nChild bounties\nMulti-asset bounties\nLegacy proposals\nTips\nBurns\nCalendar\nSpends on record\n0\nBounties on record\n35\nTreasury referenda deciding\n1\nTreasury referenda in decision\nAll deciding\n#160\nDeciding\nSmall Tipper\nReferendum #160\nby 5GpePZ…YPvi · Decision period ends in 41 h\nApproval\n0.0%\nRecent spends\nAll spends\nNo spends\n\nNo treasury spends are indexed for Paseo Asset Hub.\n\nRecent bounties\nAll bounties\n#34\nProposed\nOpenShore legacy test bounty 2026-10-03T19:45:03.764Z\nValue\n10 PAS\n#33\nProposed\nCannot send vesting transaction\nValue\n10 PAS\n#32\nBecame active\nGrantflow.dev test bounty 2\nValue\n1,000 PAS\n#31\nBecame active\nGrantflow.dev test bounty\nValue\n10 PAS\n#30\nProposed\ntest bounty\nValue\n10 PAS"
+    },
+    {
+      "test": "treasury-polkadot-loaded",
+      "url": "https://subgov-staging.subscan.io/treasury/?chain=polkadot",
+      "text": "Polkadot Asset Hub\n\nTreasury\n\nLive on-chain treasury spends and bounties from Subscan.\n\nTreasury account\nSubscan ↗\nDOT balance\n21,456,794.55\nUSDC balance\n3,170,010.49\nUSDt balance\n4,995,151.28\nNext spend period\nin ~14 days\nevery 24 days · block #34,214,400\nBurn per period\n0%\nNo burn on this network\nChild bounties\nMulti-asset bounties\nLegacy proposals\nTips\nBurns\nCalendar\nSpends on record\n85\nBounties on record\n149\nTreasury referenda deciding\n2\nTreasury referenda in decision\nAll deciding\n#1970\nDeciding\nSmall Spender\nReferendum #1970\nby 14gEnC…1g35 · Decision period ends in 22 h\nApproval\n0.0%\n#1963\nDeciding\nMedium Spender\n[Please vote NAY] Decidimos: payout rail for Potosí's lithium revenue on Polkadot Hub (190,000 USDT)\nby Heitaria Swiss AG · Decision period elapsed\nApproval\n0.0%\nRecent spends\nAll spends\n#287\nAwarded\nSub0 Mumbai 2026 proposal by GRYD (previously Edgetributor SubDAO)\nAmount\n9,796.08 USDT\n#286\nAwarded\nPolkadot Mexico: Phase 1 University Pilot\nAmount\n4,993.72 USDT\n#285\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#284\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#283\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\nRecent bounties\nAll bounties\n#7208\nRejected\n><>\nValue\n100,000 DOT\n#7107\nRejected\nThe problem with sandwiches is that they are structurally a lie, because a sandwich implies that the bread is the container and the filling is the contents…\nValue\n100,000 DOT\n#7103\nRejected\nThe problem with sandwiches is that they are structurally a lie, because a sandwich implies that the bread is the container and the filling is the contents…\nValue\n100,000 DOT\n#7093\nRejected\nThe problem with sandwiches is that they are structurally a lie, because a sandwich implies that the bread is the container and the filling is the contents…\nValue\n100,000 DOT\n#7083\nRejected\nThe problem with sandwiches is that they are structurally a lie, because a sandwich implies that the bread is the container and the filling is the contents…\nValue\n100,000 DOT"
+    },
+    {
+      "test": "treasury-kusama-loaded",
+      "url": "https://subgov-staging.subscan.io/treasury/?chain=kusama",
+      "text": "Kusama Asset Hub\n\nTreasury\n\nLive on-chain treasury spends and bounties from Subscan.\n\nTreasury account\nSubscan ↗\nKSM balance\n1,001,130.52\nTIP balance\n0\nUSDt balance\n0\nNext spend period\nin ~4 days\nevery 6 days · block #36,288,000\nBurn per period\n0%\nNo burn on this network\nChild bounties\nMulti-asset bounties\nLegacy proposals\nTips\nBurns\nCalendar\nSpends on record\n18\nBounties on record\n40\nTreasury referenda deciding\n0\nTreasury referenda in decision\nAll deciding\nNothing in decision\n\nNo treasury referenda are deciding right now.\n\nRecent spends\nAll spends\n#26\nApproved\nSubscan Enterprise Explorer License - Kusama 2026 Milestone-Based Service\nAmount\n4,834.6 KSM\n#25\nAwarded\nSubscan Enterprise Explorer License - Kusama 2026 Milestone-Based Service\nAmount\n4,834.6 KSM\n#24\nAwarded\nSubscan Enterprise Explorer License - Kusama 2026 Milestone-Based Service\nAmount\n4,834.6 KSM\n#23\nAwarded\nSubscan Enterprise Explorer License - Kusama 2026 Milestone-Based Service\nAmount\n4,834.6 KSM\n#22\nAwarded\nSubscan Enterprise Explorer License - Kusama 2026 Milestone-Based Service\nAmount\n4,834.6 KSM\nRecent bounties\nAll bounties\n#39\nRejected\nBounty\nValue\n434.25 KSM\n#38\nBecame active\nKSM RFP #4 - BigTipper\nValue\n96 KSM\n#37\nRejected\nArt\nValue\n1 KSM\n#36\nRejected\nProof-of-Personhood\nValue\n1 KSM\n#35\nRejected\nZero-Knowledge and Advanced Cryptography\nValue\n1 KSM"
+    },
+    {
+      "test": "kusama-multiasset-2-children",
+      "url": "https://subgov-staging.subscan.io/treasury/multiasset-bounties/2/?chain=kusama",
+      "text": "Multi-asset bounties\n\nMulti-asset bounty #2\n\nMulti-asset bounty #2\nZERO KNOWLEDGE PROOFS\nActive\nValue\n135,642.73 DOT\nAsset\nDOT\nCurator\nDVYbCSWbNfNxA2DXK1TUJSUaBYZVyeVq6AEvmp98S2nn3LH\nChild bounties\n3\n#04^HNg,[8?+qZ1 \nActive\n10 DOT\n#10xzk_email_milestone1_test_payment \nFunded\n10 DOT\n#20xzk_email_test_payment2 \nFunded\n5 DOT"
+    },
+    {
+      "test": "fellowship-overview",
+      "url": "https://subgov-staging.subscan.io/fellowship/?chain=polkadot",
+      "text": "Polkadot Asset Hub\n\nFellowship\n\nTechnical Fellowship membership and origin activity indexed by Subscan.\n\nMembers\n100\nActive\n30\nVoting\n6\nConfirming\n3\nReferenda\nTracks\nOrigins\nOrigin 0\n1\nMembers\n10\nProficient members\n13\nFellows\n251\nArchitects\n19\nGrand architects\n1\nRetain at i dan\n144\nRetain at ii dan\n85\nRetain at iii dan\n31\nRetain at iv dan\n14\nRetain at v dan\n6\nRetain at vi dan\n1\nPromote to i dan\n45\nPromote to ii dan\n24\nPromote to iii dan\n12\nPromote to iv dan\n1\nPromote to v dan\n1\nFast promote to i dan\n1\nFast promote to ii dan\n11\nFast promote to iii dan\n12"
+    },
+    {
+      "test": "fellowship-list-first",
+      "url": "https://subgov-staging.subscan.io/fellowship/referenda/?chain=polkadot",
+      "text": "Fellowship\n\nPolkadot Asset Hub\n\nFellowship referenda\n\nTechnical Fellowship decisions indexed from the network that hosts the collective. 685 referenda.\n\nTrack\nAll tracks\n#1 Members\n#2 Proficient members\n#3 Fellows\n#4 Architects\n#5 Architects adept\n#6 Grand architects\n#7 Masters\n#8 Masters constant\n#9 Grand masters\n#11 Retain at i dan\n#12 Retain at ii dan\n#13 Retain at iii dan\n#14 Retain at iv dan\n#15 Retain at v dan\n#16 Retain at vi dan\n#21 Promote to i dan\n#22 Promote to ii dan\n#23 Promote to iii dan\n#24 Promote to iv dan\n#25 Promote to v dan\n#26 Promote to vi dan\n#31 Fast promote to i dan\n#32 Fast promote to ii dan\n#33 Fast promote to iii dan\nGo to referendum number\nOpen\n←\n1\n2\n…\n35\n→\n#684\nDecision\nRetain rockbmb at rank 2\nFellowshipCore.approve\n#683\nDecision\n[Fellows] Referendum #683: Kusama Upgrade v2.6.0\nPolkadotXcm.send\n#682\nDecision\nFast promote dakkk to rank 2\nFellowshipCore.promote_fast\n#681\nExecuted\n[Fellows] Whitelist Runtime 2.6.0\nPolkadotXcm.send\n#680\nExecuted\n[Fellows] Whitelisting Step 3 of Validator Set Reduction\nPolkadotXcm.send\n#679\nExecuted\nKusama Runtime Upgrade 2.5.3\nPolkadotXcm.send\n#678\nDecision\nFast promote rosarp to rank 2\nFellowshipCore.promote_fast\n#677\nExecuted\nApprove RFC #174\nSystem.remark\n#676\nExecuted\n[Fellows] Whitelisting Step 2 of Validator Set Reduction\nPolkadotXcm.send\n#675\nDecision\nFast promote qiwei to rank 2\nFellowshipCore.promote_fast\n#674\nExecuted\nRuntime Upgrade 2.5.3\nPolkadotXcm.send\n#673\nExecuted\nRetain dimartiro at rank 1\nFellowshipCore.approve\n#672\nExecuted\n[Fellows] Whitelist for Validator Set Reduction\nPolkadotXcm.send\n#671\nTimeout\n[Fellows] WRONG - Please vote nay\nPolkadotXcm.send\n#670\nExecuted\nWhitelist \"Upgrade Snowbridge Gateway Contract\"\nPolkadotXcm.send\n#669\nExecuted\nRetain kianenigma at rank 5\nFellowshipCore.approve\n#668\nExecuted\nFix dotUSD supply on Asset Hub and unblock Snowbridge\nPolkadotXcm.send\n#667\nExecuted\nRetain dharjeezy at rank 1\nFellowshipCore.approve\n#666\nExecuted\nKusama Runtime Upgrade 2.5.1\nPolkadotXcm.send\n#665\nExecuted\nRuntime Upgrade 2.5.1\nPolkadotXcm.send\n←\n1\n2\n…\n35\n→\nPage 1 of 35"
+    },
+    {
+      "test": "fellowship-track3-settled",
+      "url": "https://subgov-staging.subscan.io/fellowship/referenda/?chain=polkadot&track=3",
+      "text": "Fellowship\n\nPolkadot Asset Hub\n\nFellowship referenda\n\nTechnical Fellowship decisions indexed from the network that hosts the collective. 685 referenda.\n\nTrack\nAll tracks\n#1 Members\n#2 Proficient members\n#3 Fellows\n#4 Architects\n#5 Architects adept\n#6 Grand architects\n#7 Masters\n#8 Masters constant\n#9 Grand masters\n#11 Retain at i dan\n#12 Retain at ii dan\n#13 Retain at iii dan\n#14 Retain at iv dan\n#15 Retain at v dan\n#16 Retain at vi dan\n#21 Promote to i dan\n#22 Promote to ii dan\n#23 Promote to iii dan\n#24 Promote to iv dan\n#25 Promote to v dan\n#26 Promote to vi dan\n#31 Fast promote to i dan\n#32 Fast promote to ii dan\n#33 Fast promote to iii dan\nGo to referendum number\nOpen\n←\n1\n2\n…\n35\n→\n#684\nDecision\nRetain rockbmb at rank 2\nFellowshipCore.approve\n#683\nDecision\n[Fellows] Referendum #683: Kusama Upgrade v2.6.0\nPolkadotXcm.send\n#682\nDecision\nFast promote dakkk to rank 2\nFellowshipCore.promote_fast\n#681\nExecuted\n[Fellows] Whitelist Runtime 2.6.0\nPolkadotXcm.send\n#680\nExecuted\n[Fellows] Whitelisting Step 3 of Validator Set Reduction\nPolkadotXcm.send\n#679\nExecuted\nKusama Runtime Upgrade 2.5.3\nPolkadotXcm.send\n#678\nDecision\nFast promote rosarp to rank 2\nFellowshipCore.promote_fast\n#677\nExecuted\nApprove RFC #174\nSystem.remark\n#676\nExecuted\n[Fellows] Whitelisting Step 2 of Validator Set Reduction\nPolkadotXcm.send\n#675\nDecision\nFast promote qiwei to rank 2\nFellowshipCore.promote_fast\n#674\nExecuted\nRuntime Upgrade 2.5.3\nPolkadotXcm.send\n#673\nExecuted\nRetain dimartiro at rank 1\nFellowshipCore.approve\n#672\nExecuted\n[Fellows] Whitelist for Validator Set Reduction\nPolkadotXcm.send\n#671\nTimeout\n[Fellows] WRONG - Please vote nay\nPolkadotXcm.send\n#670\nExecuted\nWhitelist \"Upgrade Snowbridge Gateway Contract\"\nPolkadotXcm.send\n#669\nExecuted\nRetain kianenigma at rank 5\nFellowshipCore.approve\n#668\nExecuted\nFix dotUSD supply on Asset Hub and unblock Snowbridge\nPolkadotXcm.send\n#667\nExecuted\nRetain dharjeezy at rank 1\nFellowshipCore.approve\n#666\nExecuted\nKusama Runtime Upgrade 2.5.1\nPolkadotXcm.send\n#665\nExecuted\nRuntime Upgrade 2.5.1\nPolkadotXcm.send\n←\n1\n2\n…\n35\n→\nPage 1 of 35"
+    },
+    {
+      "test": "fellowship-last-page",
+      "url": "https://subgov-staging.subscan.io/fellowship/referenda/?chain=polkadot&page=35",
+      "text": "Fellowship\n\nPolkadot Asset Hub\n\nFellowship referenda\n\nTechnical Fellowship decisions indexed from the network that hosts the collective. 685 referenda.\n\nTrack\nAll tracks\n#1 Members\n#2 Proficient members\n#3 Fellows\n#4 Architects\n#5 Architects adept\n#6 Grand architects\n#7 Masters\n#8 Masters constant\n#9 Grand masters\n#11 Retain at i dan\n#12 Retain at ii dan\n#13 Retain at iii dan\n#14 Retain at iv dan\n#15 Retain at v dan\n#16 Retain at vi dan\n#21 Promote to i dan\n#22 Promote to ii dan\n#23 Promote to iii dan\n#24 Promote to iv dan\n#25 Promote to v dan\n#26 Promote to vi dan\n#31 Fast promote to i dan\n#32 Fast promote to ii dan\n#33 Fast promote to iii dan\nGo to referendum number\nOpen\n←\n1\n…\n34\n35\n→\n#4\nConfirm\n[Fellows] Referendum #4: Whitelist Parachain Validator Increase to 250\nPolkadotXcm.send\n#3\nApproved\n[Fellows] Referendum #3: Whitelist Nomination Pool Config\nPolkadotXcm.send\n#2\nApproved\n[Fellows] Referendum #2: Whitelist System Parachain HRMP Channels\nPolkadotXcm.send\n#1\nApproved\n[Fellows] Referendum #1\nPolkadotXcm.send\n#0\nApproved\n[Fellows] Referendum #0: Whitelist Call for Bridge Hub Upgrade\nPolkadotXcm.send\n←\n1\n…\n34\n35\n→\nPage 35 of 35"
+    },
+    {
+      "test": "fellowship-executed679",
+      "url": "https://subgov-staging.subscan.io/fellowship/referenda/679/?chain=polkadot",
+      "text": "Fellowship referenda\n\nPolkadot Asset Hub · Fellowship #679\n\nKusama Runtime Upgrade 2.5.3\n\nTechnical Fellowship referendum data indexed by Subscan.\n\nExecuted\nAyes\n14\n19 rank-weighted votes\nNays\n0\n0 rank-weighted votes\nAbstains\n0\nDetails\nOrigin\nFellows\nCall\nPolkadotXcm.send\nProposer\nOLIVER ⚡ · 16a357…71DX\nSubmitted\nNov 17, 2026, 07:06 PM UTC\nBlock\n#10142507 ↗\nDecision deposit\n5 DOT\nPreimage\n0x6c1a732…f348b55 ↗\nProposal call\n\nPolkadotXcm.send\n\n[\n  {\n    \"name\": \"dest\",\n    \"type\": \"xcm:VersionedLocation\",\n    \"value\": {\n      \"V5\": {\n        \"interior\": {\n          \"X1\": [\n            {\n              \"Parachain\": 1000\n            }\n          ]\n        },\n        \"parents\": 1\n      }\n    }\n  },\n  {\n    \"name\": \"message\",\n    \"type\": \"xcm:VersionedXcm@231\",\n    \"value\": {\n      \"V5\": [\n        {\n          \"UnpaidExecution\": {\n            \"check_origin\": null,\n            \"weight_limit\": {\n              \"Unlimited\": \"NULL\"\n            }\n          }\n        },\n        {\n          \"InitiateTransfer\": {\n            \"assets\": null,\n            \"destination\": {\n              \"interior\": {\n                \"X2\": [\n                  {\n                    \"GlobalConsensus\": {\n                      \"Kusama\": \"NULL\"\n                    }\n                  },\n                  {\n                    \"Parachain\": 1000\n                  }\n                ]\n              },\n              \"parents\": 2\n            },\n            \"preserve_origin\": true,\n            \"remote_fees\": null,\n            \"remote_xcm\": [\n              {\n                \"Transact\": {\n                  \"call\": \"0x5e00580330f089a56f1bdf275e04b8540cb20e10d4d230855a93b637081ded9e93b1\",\n                  \"fallback_max_weight\": null,\n                  \"origin_kind\": \"Xcm\"\n                }\n              },\n              {\n                \"ExpectTransactStatus\": {\n                  \"Success\": \"NULL\"\n                }\n              }\n            ]\n          }\n        }\n      ]\n    }\n  }\n]\nTimeline\nSubmitted\n#10142507 ↗\nNov 17, 2026, 07:06 PM UTC\nDecisionDepositPlaced\n#10142548 ↗\nNov 17, 2026, 07:14 PM UTC\nDecision\n#10142657 ↗\nNov 17, 2026, 07:36 PM UTC\nConfirmStarted\n#10171007 ↗\nNov 21, 2026, 06:33 PM UTC\nConfirm\n#1017"
+    },
+    {
+      "test": "fellowship-timeout671",
+      "url": "https://subgov-staging.subscan.io/fellowship/referenda/671/?chain=polkadot",
+      "text": "Fellowship referenda\n\nPolkadot Asset Hub · Fellowship #671\n\n[Fellows] WRONG - Please vote nay\n\nTechnical Fellowship referendum data indexed by Subscan.\n\nTimeout\nAyes\n0\n0 rank-weighted votes\nNays\n15\n20 rank-weighted votes\nAbstains\n0\nDetails\nOrigin\nFellows\nCall\nPolkadotXcm.send\nProposer\nkianenigma · 1eTPAR…MDrE\nSubmitted\nNov 03, 2026, 10:46 AM UTC\nBlock\n#10039776 ↗\nDecision deposit\n0 DOT\nPreimage\n0x95f006b…293a6fc ↗\nProposal call\n\nPolkadotXcm.send\n\n[\n  {\n    \"name\": \"dest\",\n    \"type\": \"xcm:VersionedLocation\",\n    \"value\": {\n      \"V5\": {\n        \"interior\": {\n          \"X1\": [\n            {\n              \"Parachain\": 1000\n            }\n          ]\n        },\n        \"parents\": 1\n      }\n    }\n  },\n  {\n    \"name\": \"message\",\n    \"type\": \"xcm:VersionedXcm@231\",\n    \"value\": {\n      \"V5\": [\n        {\n          \"UnpaidExecution\": {\n            \"check_origin\": null,\n            \"weight_limit\": {\n              \"Unlimited\": \"NULL\"\n            }\n          }\n        },\n        {\n          \"Transact\": {\n            \"call\": \"0x400096062cf728efca944b3e7801d968d0fecf3f159ce5b811dd2e434658730f066f\",\n            \"fallback_max_weight\": null,\n            \"origin_kind\": \"Xcm\"\n          }\n        }\n      ]\n    }\n  }\n]\nTimeline\nSubmitted\n#10039776 ↗\nNov 03, 2026, 10:46 AM UTC\nTimeout\n#10090176 ↗\nNov 10, 2026, 11:38 AM UTC"
+    },
+    {
+      "test": "fellowship-tracks",
+      "url": "https://subgov-staging.subscan.io/fellowship/tracks/?chain=polkadot",
+      "text": "Fellowship\n\nPolkadot Asset Hub\n\nFellowship tracks\n\nDecision capacity, deposits, and voting periods for each Technical Fellowship origin. Select a track to view its referenda.\n\n#1Members\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#2Proficient members\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#3Fellows\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n4 / 10 deciding\nDeposit 5 DOT\n#4Architects\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#5Architects adept\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#6Grand architects\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#7Masters\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#8Masters constant\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#9Grand masters\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#11Retain at i dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n0 / 25 deciding\nDeposit 5 DOT\n#12Retain at ii dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n1 / 25 deciding\nDeposit 5 DOT\n#13Retain at iii dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n0 / 25 deciding\nDeposit 5 DOT\n#14Retain at iv dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n0 / 25 deciding\nDeposit 5 DOT\n#15Retain at v dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n0 / 25 deciding\nDeposit 5 DOT\n#16Retain at vi dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n0 / 25 deciding\nDeposit 5 DOT\n#21Promote to i dan\nPrepare\n0m(0 blocks)\nDecision\n30.2d(216,000 blocks)\nConfirm\n1h(300 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#22Promote to ii dan\nPrepare\n0m(0 blocks)\nDecision\n30.2d(216,000 blo"
+    },
+    {
+      "test": "global-search-5GLFKUxSXTf8",
+      "url": "https://subgov-staging.subscan.io/fellowship/tracks/?chain=polkadot",
+      "text": "Skip to content\nSubGov\nWORKSPACE\nOverview\nGOVERNANCE\nReferenda\nTracks\nVotes\nStatistics\nWhales\nPreimages\nWhitelist\nDelegation\nCalendar\nDiscussions\nTREASURY\nOverview\nSpends\nBounties\nChild bounties\nMulti-asset\nFELLOWSHIP\nOverview\nReferenda\nTracks\nPERSONAL\nAccount\nMy votes\nMy deposits\nMy delegations\nSettings\nPolkadot Asset Hub\n/Fellowship\n/Tracks\nSearch Polkadot Asset Hub\nEsc\nJUMP TO\nAccount profile\n5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w\nDelegate profile\n5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w\n↑↓ to move · Enter to open · Esc to close\nSearching…\nPolkadot Asset Hub\nWatch-only\nFellowship\n\nPolkadot Asset Hub\n\nFellowship tracks\n\nDecision capacity, deposits, and voting periods for each Technical Fellowship origin. Select a track to view its referenda.\n\n#1Members\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#2Proficient members\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#3Fellows\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n4 / 10 deciding\nDeposit 5 DOT\n#4Architects\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#5Architects adept\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#6Grand architects\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#7Masters\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#8Masters constant\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#9Grand masters\nPrepare\n30m(150 blocks)\nDecision\n7d(50,400 blocks)\nConfirm\n30m(150 blocks)\n0 / 10 deciding\nDeposit 5 DOT\n#11Retain at i dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n0 / 25 deciding\nDeposit 5 DOT\n#12Retain at ii dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n1 / 25 deciding\nDeposit 5 DOT\n#13Retain at iii dan\nPrepare\n0m(0 blocks)\nDecision\n14.1d(100,800 blocks)\nConfirm\n1h(300 blocks)\n"
+    },
+    {
+      "test": "viewport-override-unavailable",
+      "requested": {
+        "width": 390,
+        "height": 844
+      },
+      "observed": {
+        "docWidth": 1280,
+        "width": 1280
+      },
+      "url": "https://subgov-staging.subscan.io/fellowship/tracks/?chain=polkadot"
+    },
+    {
+      "test": "search-settled-0x6ec548af96",
+      "url": "https://subgov-staging.subscan.io/fellowship/tracks/?chain=polkadot",
+      "text": "Search Polkadot Asset Hub\nEsc\nNo matches.\n↑↓ to move · Enter to open · Esc to close\nTitle search arrives with subgov#118"
+    },
+    {
+      "test": "search-settled-runtime upgr",
+      "url": "https://subgov-staging.subscan.io/fellowship/tracks/?chain=polkadot",
+      "text": "Search Polkadot Asset Hub\nEsc\nNo matches.\n↑↓ to move · Enter to open · Esc to close\nTitle search arrives with subgov#118"
+    },
+    {
+      "test": "dark-theme-reload",
+      "observed": {
+        "class": "",
+        "theme": "dark"
+      }
+    },
+    {
+      "test": "bounties-first",
+      "url": "https://subgov-staging.subscan.io/treasury/bounties/?chain=paseo",
+      "text": "Treasury\n\nBounties\nAll\nActive\nHistorical\n←\n1\n2\n→\n#34\nProposed\nOpenShore legacy test bounty 2026-10-03T19:45:03.764Z\nValue\n10 PAS\n#33\nProposed\nCannot send vesting transaction\nValue\n10 PAS\n#32\nBecame active\nGrantflow.dev test bounty 2\nValue\n1,000 PAS\n#31\nBecame active\nGrantflow.dev test bounty\nValue\n10 PAS\n#30\nProposed\ntest bounty\nValue\n10 PAS\n#29\nProposed\ngrantflow-testing\nValue\n100 PAS\n#28\nProposed\n1000 PAS bounty\nValue\n1,000 PAS\n#27\nProposed\nInterface QA\nValue\n10 PAS\n#26\nProposed\nBounty #26\nValue\n12 PAS\n#25\nProposed\ntest\nValue\n10 PAS\n#24\nProposed\ntest bounty\nValue\n10 PAS\n#23\nProposed\nMy Second Bounty\nValue\n10 PAS\n#22\nProposed\nMy First Bounty\nValue\n10 PAS\n#21\nProposed\ntest\nValue\n10 PAS\n#20\nProposed\nBounty\nValue\n10 PAS\n#19\nProposed\nasd\nValue\n100 PAS\n#18\nProposed\nBounty\nValue\n1,000 PAS\n#17\nProposed\ntest\nValue\n11 PAS\n#16\nProposed\nTest\nValue\n10,000 PAS\n#15\nProposed\nTest\nValue\n10,000 PAS\n←\n1\n2\n→\nPage 1 of 2"
+    },
+    {
+      "test": "bounties-last",
+      "url": "https://subgov-staging.subscan.io/treasury/bounties/?chain=paseo&page=2",
+      "text": "Treasury\n\nBounties\nAll\nActive\nHistorical\n←\n1\n2\n→\n#14\nProposed\ntest\nValue\n10 PAS\n#13\nProposed\nTest\nValue\n100 PAS\n#12\nProposed\nTest Multisig\nValue\n1,234 PAS\n#11\nProposed\nOne more test Bounty\nValue\n10 PAS\n#10\nProposed\nTest Bounty\nValue\n100 PAS\n#9\nProposed\nbm paseo test\nValue\n1,000 PAS\n#8\nProposed\nYet another test bounty\nValue\n100 PAS\n#7\nBecame active\nPayment test\nValue\n10,000 PAS\n#6\nProposed\nTest Local Paseo\nValue\n1,234 PAS\n#5\nBecame active\nTestBounty\nValue\n100 PAS\n#4\nProposed\nTest Proxy from BM\nValue\n40,000 PAS\n#3\nProposed\n0x4861626c612065737061c3b16f6c61\nValue\n100 PAS\n#2\nProposed\nTest Bounty\nValue\n1,234 PAS\n#1\nProposed\nany\nValue\n10 PAS\n#0\nProposed\nTest Multix\nValue\n10 PAS\n←\n1\n2\n→\nPage 2 of 2"
+    },
+    {
+      "test": "bounties-Active",
+      "url": "https://subgov-staging.subscan.io/treasury/bounties/?chain=paseo&status=active",
+      "text": "Treasury\n\nBounties\nAll\nActive\nHistorical\n←\n1\n2\n→\n#34\nProposed\nOpenShore legacy test bounty 2026-10-03T19:45:03.764Z\nValue\n10 PAS\n#33\nProposed\nCannot send vesting transaction\nValue\n10 PAS\n#30\nProposed\ntest bounty\nValue\n10 PAS\n#29\nProposed\ngrantflow-testing\nValue\n100 PAS\n#28\nProposed\n1000 PAS bounty\nValue\n1,000 PAS\n#27\nProposed\nInterface QA\nValue\n10 PAS\n#26\nProposed\nBounty #26\nValue\n12 PAS\n#25\nProposed\ntest\nValue\n10 PAS\n#24\nProposed\ntest bounty\nValue\n10 PAS\n#23\nProposed\nMy Second Bounty\nValue\n10 PAS\n#22\nProposed\nMy First Bounty\nValue\n10 PAS\n#21\nProposed\ntest\nValue\n10 PAS\n#20\nProposed\nBounty\nValue\n10 PAS\n#19\nProposed\nasd\nValue\n100 PAS\n#18\nProposed\nBounty\nValue\n1,000 PAS\n#17\nProposed\ntest\nValue\n11 PAS\n#16\nProposed\nTest\nValue\n10,000 PAS\n#15\nProposed\nTest\nValue\n10,000 PAS\n#14\nProposed\ntest\nValue\n10 PAS\n#13\nProposed\nTest\nValue\n100 PAS\n←\n1\n2\n→\nPage 1 of 2"
+    },
+    {
+      "test": "bounties-Historical",
+      "url": "https://subgov-staging.subscan.io/treasury/bounties/?chain=paseo&status=historical",
+      "text": "Treasury\n\nBounties\nAll\nActive\nHistorical\nNo records found\n\nNo bounties for this filter."
+    },
+    {
+      "test": "spends-first",
+      "url": "https://subgov-staging.subscan.io/treasury/spends/?chain=polkadot",
+      "text": "Polkadot Asset Hub · Treasury\n\nTreasury spends\n\nOpenGov treasury spends, including multi-asset payouts.\n\n←\n1\n2\n3\n4\n5\n→\n#287\nAwarded\nSub0 Mumbai 2026 proposal by GRYD (previously Edgetributor SubDAO)\nAmount\n9,796.08 USDT\n#286\nAwarded\nPolkadot Mexico: Phase 1 University Pilot\nAmount\n4,993.72 USDT\n#285\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#284\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#283\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#282\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#281\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#280\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#279\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#278\nApproved\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#277\nAwarded\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#276\nAwarded\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#275\nAwarded\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#274\nAwarded\nParaSpell✨ XCM Tools - 12 Months of Maintenance and Server cost coverage\nAmount\n4,800 USDC\n#273\nApproved\n[Medium Spender] Referendum #1913 - Continued Integration & Maintenance of Polkadot Asset Hub in the Chainflip Protocol\nAmount\n156,009 USDC\n#272\nAwarded\n[Medium Spender] Referendum #1913 - Continued Integration & Maintenance of Polkadot Asset Hub in the Chainflip Protocol\nAmount\n103,101 USDC\n#271\nAwarded\n[Medium Spender] Referendum #1913 - Continued Integration & Maintenance of Polkadot Asset Hub in the Chainflip Protocol\nAmount\n116,667 USDC\n#270\nApproved\nSubscan Enterprise Explorer License - Polkadot 2026 Milestone-Based Service\nAmount\n20,895 USDT\n#269\nAwarded\nSubscan Enterprise Explorer License - Polkadot 2026 Milestone-Base"
+    },
+    {
+      "test": "spends-last",
+      "url": "https://subgov-staging.subscan.io/treasury/spends/?chain=polkadot&page=5",
+      "text": "Polkadot Asset Hub · Treasury\n\nTreasury spends\n\nOpenGov treasury spends, including multi-asset payouts.\n\n#207\nAwarded\nFunding for ReactiveDOT & related developments\nAmount\n8,250 USDC\n#206\nAwarded\nFunding for ReactiveDOT & related developments\nAmount\n8,250 USDC\n#205\nAwarded\nFunding for ReactiveDOT & related developments\nAmount\n8,250 USDC\n#204\nAwarded\nRatify Approved Referendum #1768 - execution error due to AH migration\nAmount\n180,000 USDC\n#203\nAwarded\nRegionX Hub: Final Funding Request (Retroactive Work, Key Features, Maintenance)\nAmount\n36,600 USDC\n←\n1\n2\n3\n4\n5\n→\nPage 5 of 5"
+    },
+    {
+      "test": "legacy-tips",
+      "url": "https://subgov-staging.subscan.io/treasury/tips/?chain=kusama",
+      "text": "Treasury\n\nKusama Asset Hub · Treasury\n\nTips\n\nTips from the pre-OpenGov tipping module. Read-only history.\n\nNo tips\n\nNo tips are indexed for Kusama Asset Hub."
+    },
+    {
+      "test": "legacy-proposals",
+      "url": "https://subgov-staging.subscan.io/treasury/proposals/?chain=kusama",
+      "text": "Treasury\n\nKusama Asset Hub · Treasury\n\nTreasury proposals\n\nProposals from the pre-OpenGov treasury (Council era). Read-only history.\n\n#461\nAwarded\nKusama Shield Audit revised - v2\nBeneficiary J93EoD…LVQohQ\nValue\n9,523 KSM\n#460\nAwarded\nKusama System Collator Bounty 2nd Top-up - 2026\nBeneficiary F3opxR…HWZos2\nValue\n17,262.7 KSM\n#459\nAwarded\n[Invoice] Subscan Explorer - Kusama 2025 Q3-Q4 SaaS Infrastructure Settlement\nBeneficiary HRkTZW…AnjQae\nValue\n33,852.18 KSM\n#458\nAwarded\nFunding for Public RPC Providers (Kusama)\nBeneficiary F3opxR…8p28ZB\nValue\n12,664 KSM\n#457\nAwarded\nSystem Parachain Collator - Top up 2026 - Revised.\nBeneficiary F3opxR…HWZos2\nValue\n26,796.47 KSM\n#456\nAwarded\nKusamas Shield v2, Bounty 32 top up\nBeneficiary F3opxR…XS46UC\nValue\n10,698.63 KSM\n#455\nAwarded\nReimbursement of 102 KSM Lost Due to Incorrect Reserve Selection in XCM Transfer\nBeneficiary GFwzEe…zaS8Na\nValue\n102 KSM\n#454\nAwarded\n[Small Spender] Tip for Dark Prague Oct 3-5 2025\nBeneficiary Hw38Qg…6Tc75M\nValue\n55 KSM\n#453\nAwarded\nRefund of Early OpenGov Submission Deposits\nBeneficiary EyXct7…kSt3Xm\nValue\n99.9667 KSM\n#452\nAwarded\nRefund of Early OpenGov Submission Deposits\nBeneficiary EJYeKK…B5YgVL\nValue\n99.9667 KSM\n#451\nAwarded\nRefund of Early OpenGov Submission Deposits\nBeneficiary GLVery…fPF7wj\nValue\n199.9334 KSM\n#450\nAwarded\nImplement a Kusama Forum MVP (Content Pallet v2)\nBeneficiary Hv5k1k…QKX324\nValue\n896 KSM"
+    },
+    {
+      "test": "blocker-statistics",
+      "url": "https://subgov-staging.subscan.io/referenda/statistics/?chain=paseo",
+      "text": "Referenda\n\nPaseo Asset Hub\n\nReferendum statistics\n\nPass rate across all OpenGov tracks, by month and by track. Months are UTC and grouped by final outcome time.\n\nGroup by submission time\n\nWaiting on the data service\n\nReferendum pass-rate statistics needs an index that is not deployed on this network yet (subgov #95). This page fills in automatically once it is.\n\nBy month\nUTC\n\nWaiting on the data service\n\nMonthly statistics needs an index that is not deployed on this network yet (subgov #95). This page fills in automatically once it is.\n\nBy track\n\nWaiting on the data service\n\nPer-track statistics needs an index that is not deployed on this network yet (subgov #95). This page fills in automatically once it is."
+    },
+    {
+      "test": "blocker-/referenda/whales/",
+      "url": "https://subgov-staging.subscan.io/referenda/whales/?chain=paseo",
+      "text": "Referenda\n\nPaseo Asset Hub\n\nWhale votes\n\nAccounts with the most voting power on referenda that are still open.\n\nOpen referendaHistory\n\nWaiting on the data service\n\nWhale voting data needs an index that is not deployed on this network yet (subgov #96). This page fills in automatically once it is."
+    },
+    {
+      "test": "blocker-/referenda/dv/",
+      "url": "https://subgov-staging.subscan.io/referenda/dv/?chain=paseo",
+      "text": "Delegation\n\nPaseo Asset Hub\n\nDecentralized Voices\n\nTreasury-backed delegation cohorts and the delegates who vote with them.\n\nWaiting on the data service\n\nDV cohorts needs an index that is not deployed on this network yet (subgov #97). This page fills in automatically once it is."
+    },
+    {
+      "test": "blocker-/votes/",
+      "url": "https://subgov-staging.subscan.io/votes/?chain=paseo",
+      "text": "Paseo Asset Hub\n\nVotes\n\nThe latest conviction votes across every OpenGov referendum. Times are UTC.\n\nAll\nAye\nNay\nAbstain\n|\nAll tracks\nRoot\nWhitelisted Caller\nWish For Change\nStaking Admin\nTreasurer\nLease Admin\nFellowship Admin\nGeneral Admin\nAuction Admin\nReferendum Canceller\nReferendum Killer\nSmall Tipper\nBig Tipper\nSmall Spender\nMedium Spender\nBig Spender\n\nWaiting on the data service\n\nThe network-wide vote feed needs an index that is not deployed on this network yet (subgov #98). This page fills in automatically once it is."
+    },
+    {
+      "test": "blocker-/delegation/statistics/",
+      "url": "https://subgov-staging.subscan.io/delegation/statistics/?chain=paseo",
+      "text": "Delegation\n\nPaseo Asset Hub\n\nDelegation statistics\n\nHow much voting power is delegated, on which tracks, and to whom.\n\nWaiting on the data service\n\nDelegation statistics needs an index that is not deployed on this network yet (subgov #103). This page fills in automatically once it is."
+    },
+    {
+      "test": "blocker-/treasury/burns/",
+      "url": "https://subgov-staging.subscan.io/treasury/burns/?chain=paseo",
+      "text": "Treasury\n\nPaseo Asset Hub · Treasury\n\nBurns\n\nNative tokens burned from the treasury at the end of each spend period (Treasury.Burnt).\n\nWaiting on the data service\n\nTreasury burn history needs an index that is not deployed on this network yet (subgov #108). This page fills in automatically once it is."
+    },
+    {
+      "test": "blocker-/calendar/",
+      "url": "https://subgov-staging.subscan.io/calendar/?chain=paseo",
+      "text": "Paseo Asset Hub\n\nGovernance calendar\n\nReferendum decision and confirmation deadlines, enactments, spend periods and bounty expiries. Future times are estimates from block times; all times UTC.\n\n←\nNovember 2026\n→\nToday\nAllDecision endsConfirmation endsEnactmentSpend periodBounty expires\n\nWaiting on the data service\n\nGovernance events needs an index that is not deployed on this network yet (subgov #119). This page fills in automatically once it is.\n\nMon\nTue\nWed\nThu\nFri\nSat\nSun\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6"
+    },
+    {
+      "test": "blocker-/posts/create/",
+      "url": "https://subgov-staging.subscan.io/posts/create/?chain=paseo",
+      "text": "Discussions\n\nDiscussion\n\nNew post\n\nSigned with your account. No transaction is sent.\n\nComing soon\n\nCreating discussion posts needs support in the SubGov discussion service, which is not deployed yet. Tracked in subgov#112."
+    },
+    {
+      "test": "local-fixed-migrated-locks",
+      "url": "http://127.0.0.1:3105/user/5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w/?chain=paseo&tab=votes",
+      "text": "Paseo Asset Hub · account\n\n5GLFKUxSXT…rmjeKz4w\n5GLFKUxSXTf8…4mrmjeKz4w\nOverview\nVotes\nDelegations\nDeposits\nComments\nVoting lock\nLocked by conviction voting\n1350 PAS\nUnlockable now\n1350 PAS\nVotes on record\n4\n0 · root\nlock 350 PAS\n#99\nKilled\nAye · 13 PAS · 6x · lock expired\n#98\nKilled\nAye · 350 PAS · 6x · lock expired\n#97\nKilled\nNay · 350 PAS · 3x · lock expired\n2 · wish for change\nlock 1350 PAS\n#96\nTimed out\nAye · 350 PAS · 2x · lock expired"
+    },
+    {
+      "test": "local-fixed-treasury-schedule",
+      "url": "http://127.0.0.1:3105/treasury/?chain=paseo",
+      "text": "Paseo Asset Hub\n\nTreasury\n\nLive on-chain treasury spends and bounties from Subscan.\n\nTreasury account\nSubscan ↗\nPAS balance\n9,353,409.29\nUSDC balance\n0\nUSDt balance\n0\nNext spend period\nSchedule unavailable from the current chain data.\nBurn per period\n0%\nNo burn on this network\nChild bounties\nMulti-asset bounties\nLegacy proposals\nTips\nBurns\nCalendar\nSpends on record\n—\nBounties on record\n—\nTreasury calls in latest deciding referenda\n—\nAmong the 5 most recent deciding referenda\nRecent treasury referenda in decision\nAll deciding\nData unavailable\n\nDeciding referenda could not be loaded right now.\n\nRecent spends\nAll spends\nData unavailable\n\nSpends could not be loaded right now.\n\nRecent bounties\nAll bounties\nData unavailable\n\nBounties could not be loaded right now."
+    },
+    {
+      "test": "local-trailing-bytes-rejected",
+      "url": "http://127.0.0.1:3105/referenda/new/?chain=paseo",
+      "text": "Referenda\n\nPaseo Asset Hub · live\n\nSubmit proposal\n\nBuild the call, verify its preimage, then sign the referendum submission with your wallet. Nothing is sent before the final confirmation.\n\n1\nTemplate\n2\nDetails\n3\nReview and sign\nQuick start\nTreasury proposal\nApprove a native treasury spend paid after the treasury award period.\nUSDx treasury proposal\nCreate an Asset Hub treasury spend using a supported stable asset.\nBatch treasury spends\nCombine several treasury spends into one proposal call.\nMulti-asset bounty proposal\nFund a bounty with an Asset Hub asset and nominate a curator.\nMore templates\nRemark\nCreate a proposal containing an on-chain system remark.\nCancel a referendum\nCancel an ongoing referendum and return its deposits.\nKill a referendum\nKill an ongoing referendum and slash its deposits.\nCreate from a preimage\nNew preimage\nRegister encoded call data and submit it as a referendum.\nI already have a preimage\nSubmit a registered preimage by its hash and encoded length.\nasset-hub-paseo\nruntime 2005006\nNew preimage\n\nRegister encoded call data and submit it as a referendum.\n\nCall parameters\nEncoded call data\nGovernance\n\nOrigin selects the OpenGov track and permissions.\n\nProposal origin / track\n#0 · Root\n#1 · Whitelisted Caller\n#2 · Wish For Change\n#10 · Staking Admin\n#11 · Treasurer\n#12 · Lease Admin\n#13 · Fellowship Admin\n#14 · General Admin\n#15 · Auction Admin\n#20 · Referendum Canceller\n#21 · Referendum Killer\n#30 · Small Tipper\n#31 · Big Tipper\n#32 · Small Spender\n#33 · Medium Spender\n#34 · Big Spender\nEnactment delay (blocks)\nSigning account\nConnect a wallet in the header\n\nCall data must encode exactly one complete runtime call\n\nReview proposal"
+    },
+    {
+      "test": "local-binary-description-fixed",
+      "url": "http://127.0.0.1:3105/treasury/multiasset-bounties/2/?chain=kusama",
+      "text": "Multi-asset bounties\n\nMulti-asset bounty #2\n\nMulti-asset bounty #2\nZERO KNOWLEDGE PROOFS\nActive\nValue\n135,642.73 DOT\nAsset\nDOT\nCurator\nDVYbCSWbNfNxA2DXK1TUJSUaBYZVyeVq6AEvmp98S2nn3LH\nChild bounties\n3\n#0Child bounty \nActive\n10 DOT\n#10xzk_email_milestone1_test_payment \nFunded\n10 DOT\n#20xzk_email_test_payment2 \nFunded\n5 DOT"
+    },
+    {
+      "test": "paseo-own-preimage-search",
+      "url": "https://subgov-staging.subscan.io/referenda/160/?chain=paseo",
+      "text": "Search Paseo Asset Hub\nEsc\nNo matches.\n↑↓ to move · Enter to open · Esc to close\nTitle search arrives with subgov#118"
+    },
+    {
+      "test": "whitelist-decode-settled",
+      "url": "https://subgov-staging.subscan.io/whitelist/?chain=polkadot",
+      "text": "Polkadot Asset Hub\n\nWhitelisted calls\n\nCall hashes the Technical Fellowship has whitelisted. A Whitelisted Caller referendum can dispatch them with root origin; each entry is removed once dispatched.\n\n0xef74a88abb43e6282d7d71de23799cf9831676116982ee756a63a6a1d389e282\nWhitelisted Caller referenda\nHide call\n\nThe preimage is not stored on-chain (never noted, or already unnoted)."
+    },
+    {
+      "test": "local-final-referendum160-settled",
+      "url": "http://127.0.0.1:3105/referenda/160/?chain=paseo",
+      "text": "Referenda\n\nReferendum #160\n\nLocal index fixture · Paseo #160\n\nLocal index fixture; tally and connected account votes are read from the real Paseo chain.\n\nDeciding\nSmall Tipper\nView on Subscan\n↗\nTally\nAye VOTING POWER\n0 PAS\nNay VOTING POWER\n0 PAS\nApproval\n—\nSupport RAW CAPITAL\n0 PAS\nConnect to vote\n\nVoting needs a connected wallet account.\n\nDetails\nProposer\n5GpePZ…YPvi\nSubmitted\nNov 23, 2026, 09:41 AM UTC\nBlock\n#16116628\n↗\nDecision period\n7d · confirm 10m\nDecision deposit\n1 PAS\nSubmission deposit\n10 PAS\nPreimage\n0x6ec548…081d1d\n↗\nCall\ntreasury.spend_local\nProposal\nCall\nMetadata\nVotes\nProposal post\n\nLocal index fixture · Paseo #160\n\nOn-chain referendum data supplied by Subscan.\n\nTimeline\nSubmitted\n#16116628\n↗\nNov 23, 2026, 09:41 AM UTC\nCommunity comments\n0 comments\nOn-chain identity\n\nPosted on SubGov and signed with your account — no transaction is sent. Separate from the proposal forum above.\n\nNo comments yet. Add the first public note for this referendum.\n\nComment\n\nComments use a signed Substrate identity; no transaction is sent.\n\nSign & post"
+    }
+  ],
+  "chain": {
+    "auditedAt": "2026-11-24T02:19:08.862Z",
+    "networks": {
+      "polkadot": {
+        "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "treasury": {
+          "account": "13UVJyLnbVp9RBZYFwFGyDvVd1y27Tt8tkntv6Q7JVPhFsTB",
+          "balances": [
+            {
+              "symbol": "DOT",
+              "decimals": 10,
+              "free": "214567945505165134"
+            },
+            {
+              "symbol": "USDC",
+              "decimals": 6,
+              "free": "3170010494411"
+            },
+            {
+              "symbol": "USDt",
+              "decimals": 6,
+              "free": "4995151283210"
+            }
+          ],
+          "spendPeriod": 345600,
+          "burnPermill": 0,
+          "next": {
+            "at": 34214400,
+            "remaining": 203412,
+            "share": 0.41142361111111114
+          },
+          "now": 34010988
+        },
+        "whitelist": [
+          "0xef74a88abb43e6282d7d71de23799cf9831676116982ee756a63a6a1d389e282"
+        ],
+        "multiasset": [
+          {
+            "id": 4,
+            "value": "77045080000",
+            "asset": {
+              "symbol": "USDC",
+              "decimals": 6,
+              "assetId": 1337
+            },
+            "metadata": "0xb7212150f8806c88569c373abf62a37a73fb78470e9714b0e73cedff103b2a93",
+            "status": "FundingAttempted",
+            "curator": "16kVHWJsyEw6ZF7MnpTa9HjAChi2vinbV5q9LizR64aJ5xNX"
+          },
+          {
+            "id": 3,
+            "value": "96775000000",
+            "asset": {
+              "symbol": "USDt",
+              "decimals": 6,
+              "assetId": 1984
+            },
+            "metadata": "0x5906b754332aae1bdfe257d0a52587a5403e2323878f45fb4413f539c558451b",
+            "status": "Active",
+            "curator": "15NCSvkYjtf2G1fvtYVnLCSPmKiZk3ReX1AUWsSDD5ocFVXa"
+          },
+          {
+            "id": 2,
+            "value": "83760000000",
+            "asset": {
+              "symbol": "USDt",
+              "decimals": 6,
+              "assetId": 1984
+            },
+            "metadata": "0xb4cb96c5aa43cef51388ab5103510c7b405d5038b8f74879f03bddd9ecffe155",
+            "status": "Active",
+            "curator": "12GkpkHocU4y1vFV2CpnA2AhkjzGGRtwucHFY77A5yyiQKp5"
+          },
+          {
+            "id": 1,
+            "value": "210800000000",
+            "asset": {
+              "symbol": "USDC",
+              "decimals": 6,
+              "assetId": 1337
+            },
+            "metadata": "0x215e931e0ca027b226d075803f0db15eaa4fb11b3a892e8ce61342d389e49da1",
+            "status": "Active",
+            "curator": "15oE3ZD75uPxZmfNSFuNVT1KnBJQqvJrXhZtEtBBZh7yxtPi"
+          }
+        ],
+        "children": []
+      },
+      "kusama": {
+        "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "treasury": {
+          "account": "F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29",
+          "balances": [
+            {
+              "symbol": "KSM",
+              "decimals": 12,
+              "free": "1001130517047932836"
+            },
+            {
+              "symbol": "TIP",
+              "decimals": 10,
+              "free": "0"
+            },
+            {
+              "symbol": "USDt",
+              "decimals": 6,
+              "free": "0"
+            }
+          ],
+          "spendPeriod": 86400,
+          "burnPermill": 0,
+          "next": {
+            "at": 36288000,
+            "remaining": 60774,
+            "share": 0.2965972222222222
+          },
+          "now": 36227226
+        },
+        "whitelist": [],
+        "multiasset": [
+          {
+            "id": 2,
+            "value": "1356427293648208",
+            "asset": {
+              "symbol": "DOT",
+              "decimals": 10,
+              "assetId": null
+            },
+            "metadata": "0x51a653392041b47a2846d65880d4feaa2425b1b28b757d224b5716f8ce3f39d1",
+            "status": "Active",
+            "curator": "DVYbCSWbNfNxA2DXK1TUJSUaBYZVyeVq6AEvmp98S2nn3LH"
+          },
+          {
+            "id": 1,
+            "value": "1130629790000000",
+            "asset": {
+              "symbol": "DOT",
+              "decimals": 10,
+              "assetId": null
+            },
+            "metadata": "0x92c3f9a6f07a447646735c4453263671ff2f77eb3eb3153f1967d15a882da4ea",
+            "status": "Active",
+            "curator": "HyfBoVzPkikGdDv5P9pNoMkHrQJ5LvktdXwiv9RntbrTHi4"
+          }
+        ],
+        "children": [
+          {
+            "parentId": 2,
+            "id": 0,
+            "value": "100000000000",
+            "status": "Active",
+            "curator": "DVYbCSWbNfNxA2DXK1TUJSUaBYZVyeVq6AEvmp98S2nn3LH"
+          },
+          {
+            "parentId": 2,
+            "id": 1,
+            "value": "100000000000",
+            "status": "Funded",
+            "curator": "DMLSE7PqozA7qMuNHxBC75MQ23U6MzhjCLN1fwUMqYEkv9b"
+          },
+          {
+            "parentId": 2,
+            "id": 2,
+            "value": "50000000000",
+            "status": "Funded",
+            "curator": "Erj1fPwFkeZWuMPktAJmE9Gqfw6vvwzQeAJmCCsdeQJcUci"
+          }
+        ]
+      },
+      "paseo": {
+        "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+        "treasury": {
+          "account": "5EYCAe5ijiYfyeZ2JJCGq56LmPyNRAKzpG4QkoQkkQNB5e6Z",
+          "balances": [
+            {
+              "symbol": "PAS",
+              "decimals": 10,
+              "free": "93534092850255328"
+            },
+            {
+              "symbol": "USDC",
+              "decimals": 6,
+              "free": "0"
+            },
+            {
+              "symbol": "USDt",
+              "decimals": 6,
+              "free": "0"
+            }
+          ],
+          "spendPeriod": 43200,
+          "burnPermill": 0,
+          "next": {
+            "at": 12398400,
+            "remaining": 10323040,
+            "share": -237.95925925925926
+          },
+          "now": 2075360
+        },
+        "whitelist": [],
+        "multiasset": [],
+        "children": []
+      }
+    },
+    "delegate": {
+      "address": "5GLFKUxSXTf8MDDKM1vqEFb5TuV1q642qpQT964mrmjeKz4w",
+      "delegations": [],
+      "voting": {
+        "now": 2075361,
+        "voteLockingPeriod": 100800,
+        "trackNames": {
+          "0": "root",
+          "1": "whitelisted caller",
+          "2": "wish for change",
+          "10": "staking admin",
+          "11": "treasurer",
+          "12": "lease admin",
+          "13": "fellowship admin",
+          "14": "general admin",
+          "15": "auction admin",
+          "20": "referendum canceller",
+          "21": "referendum killer",
+          "30": "small tipper",
+          "31": "big tipper",
+          "32": "small spender",
+          "33": "medium spender",
+          "34": "big spender"
+        },
+        "tracks": [
+          {
+            "trackId": 0,
+            "trackName": "root",
+            "lock": "3500000000000",
+            "votes": [
+              {
+                "referendumId": 99,
+                "vote": {
+                  "mode": "Aye",
+                  "conviction": "Locked6x",
+                  "balance": "130000000000"
+                },
+                "outcome": {
+                  "state": "killed",
+                  "end": 7911158
+                },
+                "unlockAt": 7911158
+              },
+              {
+                "referendumId": 98,
+                "vote": {
+                  "mode": "Aye",
+                  "conviction": "Locked6x",
+                  "balance": "3500000000000"
+                },
+                "outcome": {
+                  "state": "killed",
+                  "end": 8028528
+                },
+                "unlockAt": 8028528
+              },
+              {
+                "referendumId": 97,
+                "vote": {
+                  "mode": "Nay",
+                  "conviction": "Locked3x",
+                  "balance": "3500000000000"
+                },
+                "outcome": {
+                  "state": "killed",
+                  "end": 7911158
+                },
+                "unlockAt": 7911158
+              }
+            ],
+            "prior": null,
+            "delegated": "0",
+            "received": {
+              "votes": "1000000000",
+              "capital": "10000000000"
+            }
+          },
+          {
+            "trackId": 2,
+            "trackName": "wish for change",
+            "lock": "13500000000000",
+            "votes": [
+              {
+                "referendumId": 96,
+                "vote": {
+                  "mode": "Aye",
+                  "conviction": "Locked2x",
+                  "balance": "3500000000000"
+                },
+                "outcome": {
+                  "state": "timedOut",
+                  "end": 8056029,
+                  "submissionDeposit": {
+                    "who": "5GnNHt39B9te5yvhv5qF494u6FF24Ld6MxEGFP4UanGJyag8",
+                    "amount": "10000000000"
+                  },
+                  "decisionDeposit": null
+                },
+                "unlockAt": 8056029
+              }
+            ],
+            "prior": null,
+            "delegated": "0",
+            "received": {
+              "votes": "0",
+              "capital": "0"
+            }
+          }
+        ]
+      }
+    },
+    "fellowship": {
+      "genesisHash": "0x46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
+      "collectiveMembers": 100,
+      "referendumCount": 685,
+      "ongoingIds": [
+        683,
+        675,
+        684,
+        678,
+        682
+      ],
+      "confirming": 0,
+      "outcomes": {
+        "4": {
+          "approved": [
+            1624765,
+            null,
+            null
+          ]
+        },
+        "679": {
+          "approved": [
+            10171157,
+            null,
+            null
+          ]
+        },
+        "671": {
+          "timedOut": [
+            10090176,
+            {
+              "who": "1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE",
+              "amount": 0
+            },
+            null
+          ]
+        }
+      }
+    },
+    "controlledPaseo": {
+      "runtime": {
+        "specName": "asset-hub-paseo",
+        "implName": "asset-hub-paseo",
+        "authoringVersion": 1,
+        "specVersion": 2005006,
+        "implVersion": 0,
+        "apis": [
+          [
+            "0xbc9d89904f5b923f",
+            1
+          ],
+          [
+            "0x6ff52ee858e6c5bd",
+            2
+          ],
+          [
+            "0x17a6bc0d0062aeb3",
+            1
+          ],
+          [
+            "0x9ffb505aa738d69c",
+            1
+          ],
+          [
+            "0xf78b278be53f454c",
+            2
+          ],
+          [
+            "0xf3ff14d5ab527059",
+            3
+          ],
+          [
+            "0xd2bc9897eed08f15",
+            3
+          ],
+          [
+            "0xab3c0572291feb8b",
+            2
+          ],
+          [
+            "0x18ef58a3b67ba770",
+            1
+          ],
+          [
+            "0x37c8bb1350a9a2a8",
+            4
+          ],
+          [
+            "0x04e70521a0d3d2f8",
+            2
+          ],
+          [
+            "0xdd718d5cc53262d4",
+            1
+          ],
+          [
+            "0xfbc577b9d747efd6",
+            1
+          ],
+          [
+            "0xde92b8a0426b9bf6",
+            2
+          ],
+          [
+            "0xea93e3f16f3d6962",
+            3
+          ],
+          [
+            "0x12c8e3d4d7e06de0",
+            1
+          ],
+          [
+            "0xfe26fc1a0dd5ae00",
+            1
+          ],
+          [
+            "0x82527d61e8e140e3",
+            1
+          ],
+          [
+            "0x8c403e5c4a9fd442",
+            1
+          ],
+          [
+            "0x8a8047a53a8277ec",
+            1
+          ],
+          [
+            "0xc51ff1fa3f5d0cca",
+            1
+          ],
+          [
+            "0x37e397fc7c91f5e4",
+            2
+          ],
+          [
+            "0xa2ddb6a58477bf63",
+            1
+          ],
+          [
+            "0x91b1c8b16328eb92",
+            2
+          ],
+          [
+            "0xccd9de6396c899ca",
+            1
+          ],
+          [
+            "0x2609be83ac4468dc",
+            1
+          ],
+          [
+            "0xdf6acb689907609b",
+            5
+          ],
+          [
+            "0xd7bdd8a272ca0d65",
+            2
+          ],
+          [
+            "0x40fe3ad401f8959a",
+            6
+          ]
+        ],
+        "transactionVersion": 22,
+        "stateVersion": 1
+      },
+      "block": 16146314,
+      "relay": 2075431,
+      "lastSpendPeriod": 12355200,
+      "main": {
+        "nonce": 27,
+        "consumers": 1,
+        "providers": 1,
+        "sufficients": 0,
+        "data": {
+          "free": 49885605839922,
+          "reserved": 114010300000,
+          "frozen": 0,
+          "flags": "0x80000000000000000000000000000000"
+        }
+      },
+      "referendum160": {
+        "ongoing": {
+          "track": 30,
+          "origin": {
+            "origins": "SmallTipper"
+          },
+          "proposal": {
+            "lookup": {
+              "hash": "0x6ec548af963080dde0364fcf0ea85e720b7b9577bd11cd0bf2cba148f1081d1d",
+              "len": 39
+            }
+          },
+          "enactment": {
+            "after": 10
+          },
+          "submitted": 2065378,
+          "submissionDeposit": {
+            "who": "5GpePZkwtdFBoHxDJN5GAkNob2oyhkahJGD2UY3jx6dpYPvi",
+            "amount": 100000000000
+          },
+          "decisionDeposit": {
+            "who": "5GpePZkwtdFBoHxDJN5GAkNob2oyhkahJGD2UY3jx6dpYPvi",
+            "amount": 10000000000
+          },
+          "deciding": {
+            "since": 2065662,
+            "confirming": null
+          },
+          "tally": {
+            "ayes": 0,
+            "nays": 0,
+            "support": 0
+          },
+          "inQueue": false,
+          "alarm": [
+            2166462,
+            [
+              2166462,
+              0
+            ]
+          ]
+        }
+      },
+      "preimage": {
+        "unrequested": {
+          "ticket": [
+            "5GpePZkwtdFBoHxDJN5GAkNob2oyhkahJGD2UY3jx6dpYPvi",
+            4010300000
+          ],
+          "len": 39
+        }
+      }
+    }
+  },
+  "reconciliation": "Treasury displayed rounding for every native/local-asset row, 0.1 PAS votes / 1 PAS capital, whitelist hash, 41 unique track records across 20+20+1 rows, and corrected 1350 PAS unlock estimate checked against captured raw values."
+}

@@ -1,0 +1,19 @@
+services:
+  subgov:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID: ${NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID:-}
+        NEXT_PUBLIC_DEGOV_DISCUSSION_API: ${NEXT_PUBLIC_DEGOV_DISCUSSION_API:-https://api.degov.ai/graphql}
+        NEXT_PUBLIC_DEGOV_DISCUSSION_SPACE: ${NEXT_PUBLIC_DEGOV_DISCUSSION_SPACE:-subgov}
+    container_name: subgov
+    ports:
+      - "3015:3015"
+    env_file:
+      - .env
+    environment:
+      CI: "true"
+      DEGOV_DISCUSSION_ADMIN_TOKEN: ${DEGOV_DISCUSSION_ADMIN_TOKEN:-}
+      HOSTNAME: 0.0.0.0
+      PORT: "3015"
+    restart: unless-stopped

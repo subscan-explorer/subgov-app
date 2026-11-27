@@ -1,0 +1,32 @@
+[
+  {
+    "name": "polkadot-onboard",
+    "source": "https://github.com/paritytech/polkadot-onboard/blob/848a7a948debfe8c63f090812fa7a54a810b5fd1/LICENSE",
+    "bytes": 11357
+  },
+  {
+    "name": "walletconnect-modal",
+    "source": "https://github.com/walletconnect/modal/blob/5a0720f2a463a458d37a2fc96df1a8277be7f5ec/LICENSE",
+    "bytes": 10357
+  },
+  {
+    "name": "lit",
+    "source": "https://github.com/lit/lit/blob/20afabd3c5bfd49fdcdf1b8518e05c7f99a46db6/LICENSE",
+    "bytes": 1517
+  },
+  {
+    "name": "encode-utf8",
+    "source": "https://github.com/LinusU/encode-utf8/blob/b8e591da66e5942caa59cf7b1922d91b95ed49ea/readme.md",
+    "note": "Upstream has no separate license file; retain installed package metadata and README with the standard MIT terms."
+  },
+  {
+    "name": "uint8arrays",
+    "source": "https://github.com/achingbrain/uint8arrays/blob/66c931a497c598bfaff46d09b6ddd061b6c91a08/README.md",
+    "note": "Upstream has no separate license file; retain installed package metadata and README with the standard MIT terms."
+  },
+  {
+    "name": "mit-terms",
+    "source": "https://spdx.org/licenses/MIT.html",
+    "note": "Standard permission and warranty text; package authorship is kept separately, without inventing a copyright holder."
+  }
+]

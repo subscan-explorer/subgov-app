@@ -1,0 +1,781 @@
+{
+  "checkedAt": "2026-11-25T06:11:45.420981+00:00",
+  "apiRequests": 104,
+  "assertions": 53,
+  "passed": 48,
+  "failedChecks": [
+    "polkadot selected preimage status vs chain",
+    "assethub-polkadot latest feed does not precede known newer valid votes",
+    "assethub-polkadot active children have no terminal timeline",
+    "assethub-kusama latest feed does not precede known newer valid votes",
+    "assethub-kusama active children have no terminal timeline"
+  ],
+  "uiObservations": 50,
+  "sourceBase": "4461d7db9de00f9c5be1e88b62801413fb887d3e",
+  "frontendFix": "Preimage author filter and Relay legacy tips routing: local live API/UI verified; not deployed",
+  "childFilter": "Preserved existing block after active list semantic failure; experimental enabling was reverted",
+  "userReportedPassed": [
+    "H01 wallets",
+    "H02 devices",
+    "H03 DeGov referendum comments (user-confirmed testing completed)"
+  ],
+  "manualPending": [],
+  "conditionalPending": [
+    "B02 refund and winning conviction expiry",
+    "B03 owned Requested preimage",
+    "B04 controlled treasury payout",
+    "B05 privileged execution"
+  ],
+  "ignored": [
+    "F03 historical treasury clock"
+  ],
+  "removed": [
+    "DV",
+    "unreleased standalone discussion functionality"
+  ],
+  "newFindings": [
+    "F04 feed migration sorting",
+    "F05 stale preimage Requested status",
+    "F06 child bounty status versus timeline and chain"
+  ],
+  "noSigningOrWrites": true,
+  "acceptanceUpdate": {
+    "date": "2026-11-25",
+    "source": "User confirmed referendum comment testing completed",
+    "independentlyRetested": false
+  },
+  "conditionalFollowUp": {
+    "date": "2026-11-25",
+    "report": "2026-11-25-conditional-mainnet-validation.md",
+    "apiRequests": 24,
+    "uiObservations": 12,
+    "signing": false,
+    "B07": "Local fix verified; awaits merge/deployment",
+    "networks": {
+      "kusama": {
+        "finalizedBlock": 24247845,
+        "blockHash": "0x92c672fdccae2bb7313257578b90bfd2f379eb7c6a37eecf9a27d364cb4ef893",
+        "relayClock": 36244100,
+        "terminalRefundableDeposits": 0,
+        "sampleVoter": "H56ErZytjWzRtXLpBZEB3gcNm7k7HhVCvctYMzQHLRibtNP",
+        "expiredWinningVotes": [
+          {
+            "referendum": 531,
+            "track": 32,
+            "conviction": 3,
+            "balance": 300000000000,
+            "outcome": "approved",
+            "end": 28723324,
+            "unlockAt": 29126524,
+            "now": 36244100
+          },
+          {
+            "referendum": 536,
+            "track": 34,
+            "conviction": 2,
+            "balance": 300000000000,
+            "outcome": "rejected",
+            "end": 28953242,
+            "unlockAt": 29154842,
+            "now": 36244100
+          },
+          {
+            "referendum": 603,
+            "track": 33,
+            "conviction": 1,
+            "balance": 300000000000,
+            "outcome": "approved",
+            "end": 30578931,
+            "unlockAt": 30679731,
+            "now": 36244100
+          },
+          {
+            "referendum": 533,
+            "track": 10,
+            "conviction": 3,
+            "balance": 300000000000,
+            "outcome": "approved",
+            "end": 28768048,
+            "unlockAt": 29171248,
+            "now": 36244100
+          }
+        ],
+        "futureWinningVotes": [],
+        "requestedPreimages": 6,
+        "requestedWithTicket": 4,
+        "liveSpends": 24,
+        "pendingSpends": 2,
+        "payablePendingSpends": [],
+        "whitelist": [],
+        "cancelKillSamples": [
+          {
+            "id": 106,
+            "state": {
+              "cancelled": [
+                16854387,
+                null,
+                null
+              ]
+            }
+          },
+          {
+            "id": 402,
+            "state": {
+              "cancelled": [
+                23494626,
+                null,
+                null
+              ]
+            }
+          },
+          {
+            "id": 59,
+            "state": {
+              "cancelled": [
+                16217428,
+                null,
+                null
+              ]
+            }
+          },
+          {
+            "id": 12,
+            "state": {
+              "cancelled": [
+                15697569,
+                null,
+                null
+              ]
+            }
+          },
+          {
+            "id": 600,
+            "state": {
+              "cancelled": [
+                30424575,
+                null,
+                null
+              ]
+            }
+          }
+        ],
+        "selectedEvidence": {
+          "payment": {
+            "id": 25,
+            "block": 24034374,
+            "hash": "0x4e50dd3ed94ae977f7ab1caaa53bacfde93755307f92dacb6928e5c92600b1de",
+            "extrinsic": "24034374-2",
+            "beneficiary": "HRkTZWtCKJwDKRtrxzB2wjHthtJhvjps3vznyTRtBAnjQae",
+            "apiAmount": "4834600000000000",
+            "asset": {
+              "paraId": 0,
+              "token_unique_id": "KSM",
+              "amount": "4834600000000000",
+              "decimals": 12,
+              "symbol": "KSM",
+              "history_currency_amount": "15274.64655120317890476",
+              "current_currency_amount": "12424.922",
+              "beneficiary": {
+                "address": "HRkTZWtCKJwDKRtrxzB2wjHthtJhvjps3vznyTRtBAnjQae",
+                "people": {
+                  "parent": {
+                    "address": "Fzs6WWFcAuJhxAVyZa4EN2suxggjidJjV3AzJxKbRHjh2Jc",
+                    "display": "SUBSCAN",
+                    "sub_symbol": "multisig",
+                    "identity": true
+                  }
+                }
+              }
+            },
+            "events": [
+              {
+                "section": "balances",
+                "method": "Withdraw",
+                "data": [
+                  "GRvmkAg3jL74CBDuzkLfGUeK7duJYKJs7LexSs8h6FauGCz",
+                  49188988
+                ]
+              },
+              {
+                "section": "balances",
+                "method": "Transfer",
+                "data": [
+                  "F3opxRbN5ZbjJNU511Kj2TLuzFcDq9BGduA9TgiECafpg29",
+                  "HRkTZWtCKJwDKRtrxzB2wjHthtJhvjps3vznyTRtBAnjQae",
+                  "0x000000000000000000112d0b07a19000"
+                ]
+              },
+              {
+                "section": "treasury",
+                "method": "Paid",
+                "data": [
+                  25,
+                  "0xffffffffffffffff"
+                ]
+              },
+              {
+                "section": "balances",
+                "method": "Deposit",
+                "data": [
+                  "F3opxRUwkBj1LqjZ7DyiHCRh9Z4zVPLaVjoxfD5ddbip8mt",
+                  49188988
+                ]
+              },
+              {
+                "section": "transactionPayment",
+                "method": "TransactionFeePaid",
+                "data": [
+                  "GRvmkAg3jL74CBDuzkLfGUeK7duJYKJs7LexSs8h6FauGCz",
+                  49188988,
+                  0
+                ]
+              },
+              {
+                "section": "system",
+                "method": "ExtrinsicSuccess",
+                "data": [
+                  {
+                    "weight": {
+                      "refTime": 793692000,
+                      "proofSize": 16047
+                    },
+                    "class": "Normal",
+                    "paysFee": "Yes"
+                  }
+                ]
+              }
+            ]
+          },
+          "preimage": {
+            "api": {
+              "hash": "0x92c3f9a6f07a447646735c4453263671ff2f77eb3eb3153f1967d15a882da4ea",
+              "len": 24,
+              "amount": "13362666624",
+              "decimals": 12,
+              "symbol": "KSM",
+              "created_block": 16443445,
+              "created_timestamp": 1778087808,
+              "author": {
+                "address": "Fa21tofAVF6jAR95K8NSbfLfiW3dabpdvfJVy492idMtF8R",
+                "people": {
+                  "display": "DrW3RK",
+                  "identity": true,
+                  "judgements": [
+                    {
+                      "index": 0,
+                      "judgement": "Reasonable"
+                    }
+                  ]
+                }
+              },
+              "status": "Requested",
+              "call_module": "System",
+              "call_name": "remark",
+              "link": null,
+              "source": "preimage"
+            },
+            "chain": {
+              "hash": "0x92c3f9a6f07a447646735c4453263671ff2f77eb3eb3153f1967d15a882da4ea",
+              "state": {
+                "requested": {
+                  "maybeTicket": [
+                    "Fa21tofAVF6jAR95K8NSbfLfiW3dabpdvfJVy492idMtF8R",
+                    13362666624
+                  ],
+                  "count": 1,
+                  "maybeLen": 24
+                }
+              }
+            },
+            "bytesPresent": true
+          },
+          "tip": {
+            "api": {
+              "block_num": 15336630,
+              "reason": "To aid a community member who lost 8 KSM by mistakenly sending funds directly to a nomination pool stash address",
+              "hash": "0x410a4f0a577cac54e6f5fec623f7c07602b0e9668375bd8c8c1922de79952692",
+              "extrinsic_index": "15336630-2",
+              "status": "closed",
+              "amount": "8000000000000",
+              "close_block_num": 15485385,
+              "tipper_num": 7,
+              "block_timestamp": 1668503574,
+              "finder": {
+                "address": "HqRcfhH8VXMhuCk5JXe28WMgDDuW9MVDVNofe1nnTcefVZn",
+                "people": {
+                  "display": "Paradox",
+                  "identity": true,
+                  "judgements": [
+                    {
+                      "index": 0,
+                      "judgement": "KnownGood"
+                    }
+                  ]
+                }
+              },
+              "beneficiary": {
+                "address": "ERxnkkP5fXbHUCiswyjoJf3Nh8UPV44tQ4utMjWUeg7C8UL"
+              }
+            },
+            "blockHash": "0x2181be6dbc56888fd5816ed1978ce5ecef2be66f62f2503d7bef6d136e8a5f45",
+            "events": [
+              {
+                "section": "tips",
+                "method": "TipClosed",
+                "data": [
+                  "0x410a4f0a577cac54e6f5fec623f7c07602b0e9668375bd8c8c1922de79952692",
+                  "ERxnkkP5fXbHUCiswyjoJf3Nh8UPV44tQ4utMjWUeg7C8UL",
+                  8000000000000
+                ]
+              }
+            ]
+          }
+        },
+        "relayTips": 807
+      },
+      "polkadot": {
+        "finalizedBlock": 23579467,
+        "blockHash": "0xd40798baecc8bcf4d3901b954af4cbc099b29afb4b1040d3e497d9ff3979249a",
+        "relayClock": 34028498,
+        "terminalRefundableDeposits": 0,
+        "sampleVoter": "1bhEH21hmpfDUdBojqH2Buzt4haky2i3x1wWKFmw3wLjEnK",
+        "expiredWinningVotes": [
+          {
+            "referendum": 1954,
+            "track": 2,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "approved",
+            "end": 33831961,
+            "unlockAt": 33932761,
+            "now": 34028498
+          },
+          {
+            "referendum": 1959,
+            "track": 31,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "rejected",
+            "end": 33675702,
+            "unlockAt": 33776502,
+            "now": 34028498
+          },
+          {
+            "referendum": 1956,
+            "track": 32,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "rejected",
+            "end": 33836464,
+            "unlockAt": 33937264,
+            "now": 34028498
+          },
+          {
+            "referendum": 1962,
+            "track": 33,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "approved",
+            "end": 33790995,
+            "unlockAt": 33891795,
+            "now": 34028498
+          },
+          {
+            "referendum": 1955,
+            "track": 1,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "rejected",
+            "end": 33819764,
+            "unlockAt": 33920564,
+            "now": 34028498
+          },
+          {
+            "referendum": 1964,
+            "track": 1,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "approved",
+            "end": 33800703,
+            "unlockAt": 33901503,
+            "now": 34028498
+          },
+          {
+            "referendum": 1966,
+            "track": 1,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "approved",
+            "end": 33782883,
+            "unlockAt": 33883683,
+            "now": 34028498
+          }
+        ],
+        "futureWinningVotes": [
+          {
+            "referendum": 1971,
+            "track": 31,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "rejected",
+            "end": 33989828,
+            "unlockAt": 34090628,
+            "now": 34028498
+          },
+          {
+            "referendum": 1973,
+            "track": 1,
+            "conviction": 1,
+            "balance": 10000000000,
+            "outcome": "approved",
+            "end": 34006040,
+            "unlockAt": 34106840,
+            "now": 34028498
+          }
+        ],
+        "requestedPreimages": 94,
+        "requestedWithTicket": 36,
+        "liveSpends": 283,
+        "pendingSpends": 21,
+        "payablePendingSpends": [],
+        "whitelist": [
+          "0xef74a88abb43e6282d7d71de23799cf9831676116982ee756a63a6a1d389e282"
+        ],
+        "cancelKillSamples": [
+          {
+            "id": 1940,
+            "state": {
+              "cancelled": [
+                32837881,
+                null,
+                null
+              ]
+            }
+          },
+          {
+            "id": 443,
+            "state": {
+              "cancelled": [
+                19223019,
+                null,
+                null
+              ]
+            }
+          },
+          {
+            "id": 203,
+            "state": {
+              "killed": 18064194
+            }
+          },
+          {
+            "id": 416,
+            "state": {
+              "cancelled": [
+                19223019,
+                null,
+                null
+              ]
+            }
+          },
+          {
+            "id": 1767,
+            "state": {
+              "cancelled": [
+                28494570,
+                null,
+                null
+              ]
+            }
+          }
+        ],
+        "selectedEvidence": {
+          "payment": {
+            "id": 287,
+            "block": 22229537,
+            "hash": "0xfdf3a28078f119f251a501697c342fc855981949897c706506fcb0c0ab4cbda7",
+            "extrinsic": "22229537-3",
+            "beneficiary": "14WYWTADTSrmijwSxkzznCEz8TSSmkd1d9yBX1HFVUtipDUj",
+            "apiAmount": "9796080000",
+            "asset": {
+              "paraId": 0,
+              "token_unique_id": "standard_assets/1984",
+              "amount": "9796080000",
+              "decimals": 6,
+              "symbol": "USDt",
+              "history_currency_amount": "9787.515260721097528272",
+              "current_currency_amount": "9785.16716688",
+              "beneficiary": {
+                "address": "14WYWTADTSrmijwSxkzznCEz8TSSmkd1d9yBX1HFVUtipDUj",
+                "people": {
+                  "display": "TeamGRYD (Edgetributor SubDAO)",
+                  "identity": true
+                }
+              }
+            },
+            "events": [
+              {
+                "section": "balances",
+                "method": "Withdraw",
+                "data": [
+                  "12eW1PVGPxZLGkEEMDg7bCeTS4gcgjYFqtokgz4hJXBcf6fF",
+                  7425730
+                ]
+              },
+              {
+                "section": "assets",
+                "method": "Transferred",
+                "data": [
+                  1984,
+                  "13UVJyLnbVp9RBZYFwFGyDvVd1y27Tt8tkntv6Q7JVPhFsTB",
+                  "14WYWTADTSrmijwSxkzznCEz8TSSmkd1d9yBX1HFVUtipDUj",
+                  9796080000
+                ]
+              },
+              {
+                "section": "treasury",
+                "method": "Paid",
+                "data": [
+                  287,
+                  "0xffffffffffffffff"
+                ]
+              },
+              {
+                "section": "balances",
+                "method": "Deposit",
+                "data": [
+                  "13UVJyLkAxdQn6zM3Gz49SmCLi8SZW3bdtm7DTY29ScavqW2",
+                  7425730
+                ]
+              },
+              {
+                "section": "transactionPayment",
+                "method": "TransactionFeePaid",
+                "data": [
+                  "12eW1PVGPxZLGkEEMDg7bCeTS4gcgjYFqtokgz4hJXBcf6fF",
+                  7425730,
+                  0
+                ]
+              },
+              {
+                "section": "system",
+                "method": "ExtrinsicSuccess",
+                "data": [
+                  {
+                    "weight": {
+                      "refTime": 977414000,
+                      "proofSize": 12649
+                    },
+                    "class": "Normal",
+                    "paysFee": "Yes"
+                  }
+                ]
+              }
+            ]
+          },
+          "preimage": {
+            "api": {
+              "hash": "0xe71e88e5c8a40cb70f9342e97cb342e1da3c35f664f4b040c44a3e5862b937a6",
+              "len": 12,
+              "amount": "4007600000",
+              "decimals": 10,
+              "symbol": "DOT",
+              "created_block": 21285403,
+              "created_timestamp": 1790813880,
+              "author": {
+                "address": "15oE3ZD75uPxZmfNSFuNVT1KnBJQqvJrXhZtEtBBZh7yxtPi",
+                "evm_address": "0x74898c05ff317c3abd1dd2781660d48d4ef03d14"
+              },
+              "status": "Requested",
+              "call_module": "System",
+              "call_name": "remark",
+              "link": null,
+              "source": "preimage"
+            },
+            "chain": {
+              "hash": "0xe71e88e5c8a40cb70f9342e97cb342e1da3c35f664f4b040c44a3e5862b937a6",
+              "state": {
+                "requested": {
+                  "maybeTicket": [
+                    "15oE3ZD75uPxZmfNSFuNVT1KnBJQqvJrXhZtEtBBZh7yxtPi",
+                    4007600000
+                  ],
+                  "count": 1,
+                  "maybeLen": 12
+                }
+              }
+            },
+            "bytesPresent": true
+          },
+          "tip": {
+            "api": {
+              "block_num": 15476217,
+              "reason": "TO: Doordashcon FOR: substrate#13880 (small)",
+              "hash": "0x3204d30021076584d793073d2b95d5ce7618b850e4d81448ced6ff11b2e0348c",
+              "extrinsic_index": "15476217-2",
+              "status": "closed",
+              "amount": "120000000000",
+              "close_block_num": 15759917,
+              "tipper_num": 7,
+              "block_timestamp": 1683815226,
+              "finder": {
+                "address": "14Sbk1RvKa9x7k8CThWoEYKA21LDduRbcivnzkDdm2WnDutM",
+                "people": {
+                  "display": "PARITY TIP BOT",
+                  "identity": true
+                }
+              },
+              "beneficiary": {
+                "address": "12zsKEDVcHpKEWb99iFt3xrTCQQXZMu477nJQsTBBrof5k2h",
+                "people": {
+                  "display": "Jesse Chejieh",
+                  "identity": true,
+                  "judgements": [
+                    {
+                      "index": 3,
+                      "judgement": "Reasonable"
+                    }
+                  ]
+                }
+              }
+            },
+            "blockHash": "0x435352846c8a1957d726ea62aeb149b2a0715c2e933c951c0df10a03e1370ac5",
+            "events": [
+              {
+                "section": "tips",
+                "method": "TipClosed",
+                "data": [
+                  "0x3204d30021076584d793073d2b95d5ce7618b850e4d81448ced6ff11b2e0348c",
+                  "12zsKEDVcHpKEWb99iFt3xrTCQQXZMu477nJQsTBBrof5k2h",
+                  120000000000
+                ]
+              }
+            ]
+          }
+        },
+        "relayTips": 593
+      }
+    },
+    "uiChecks": [
+      {
+        "name": "polkadot tips page 1",
+        "checks": {
+          "rows": 20,
+          "countOk": true,
+          "orderAndRelayLink": true,
+          "amountOk": true,
+          "pages": 30
+        }
+      },
+      {
+        "name": "polkadot tips page 2",
+        "checks": {
+          "rows": 20,
+          "countOk": true,
+          "orderAndRelayLink": true,
+          "amountOk": true,
+          "pages": 30
+        }
+      },
+      {
+        "name": "polkadot tips page 30",
+        "checks": {
+          "rows": 13,
+          "countOk": true,
+          "orderAndRelayLink": true,
+          "amountOk": true,
+          "pages": 30
+        }
+      },
+      {
+        "name": "kusama tips page 1",
+        "checks": {
+          "rows": 20,
+          "countOk": true,
+          "orderAndRelayLink": true,
+          "amountOk": true,
+          "pages": 41
+        }
+      },
+      {
+        "name": "kusama tips page 2",
+        "checks": {
+          "rows": 20,
+          "countOk": true,
+          "orderAndRelayLink": true,
+          "amountOk": true,
+          "pages": 41
+        }
+      },
+      {
+        "name": "kusama tips page 41",
+        "checks": {
+          "rows": 7,
+          "countOk": true,
+          "orderAndRelayLink": true,
+          "amountOk": true,
+          "pages": 41
+        }
+      },
+      {
+        "name": "polkadot spend 287",
+        "checks": {
+          "amount": "9796.08 USDT",
+          "amountMatchesChain": true,
+          "beneficiaryMatchesChain": true,
+          "attemptedMessage": true,
+          "checkStatusVisible": true,
+          "chainExpiry34865595": true
+        }
+      },
+      {
+        "name": "polkadot spend 285",
+        "checks": {
+          "amountMatchesChain": true,
+          "pendingFuture": true,
+          "validFrom37165333": true,
+          "payoutAbsent": true
+        }
+      },
+      {
+        "name": "kusama spend 25",
+        "checks": {
+          "amountMatchesChain": true,
+          "beneficiaryMatchesChain": true,
+          "attemptedMessage": true,
+          "checkStatusVisible": true,
+          "chainExpiry37467843": true
+        }
+      },
+      {
+        "name": "kusama spend 26",
+        "checks": {
+          "amountMatchesChain": true,
+          "pendingFuture": true,
+          "validFrom36590765": true,
+          "payoutAbsent": true
+        }
+      },
+      {
+        "name": "polkadot Requested ticket preimage",
+        "checks": {
+          "hash": "0xe71e88e5c8a40cb70f9342e97cb342e1da3c35f664f4b040c44a3e5862b937a6",
+          "statusRequested": true,
+          "depositFormatted": true,
+          "bytes12": true,
+          "authorLink": true
+        }
+      },
+      {
+        "name": "kusama Requested ticket preimage",
+        "checks": {
+          "hash": "0x92c3f9a6f07a447646735c4453263671ff2f77eb3eb3153f1967d15a882da4ea",
+          "statusRequested": true,
+          "depositFormatted": true,
+          "bytes24": true,
+          "authorLink": true
+        }
+      }
+    ]
+  }
+}

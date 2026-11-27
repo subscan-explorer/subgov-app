@@ -1,0 +1,14 @@
+node_modules
+.pnpm-store
+.next
+out
+.git
+.env
+.env.*
+*.log
+*.tsbuildinfo
+public/third-party-licenses.txt
+.playwright-cli
+.worktree
+.worktrees
+.workspace

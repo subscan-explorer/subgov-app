@@ -1,0 +1,434 @@
+{
+  "network": "Paseo Asset Hub",
+  "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+  "address": "5GpePZkwtdFBoHxDJN5GAkNob2oyhkahJGD2UY3jx6dpYPvi",
+  "actor": "5ER9Vu3UXtAaym5ubVXLg8YNEvHF5AHanSW1nduQr3csAqPB",
+  "referendumId": 160,
+  "auditedAt": "2026-11-23T10:13:43.516Z",
+  "initialFundingPAS": 5000,
+  "finalizedTransactions": 30,
+  "receipts": [
+    {
+      "operation": "fund-controlled-actor",
+      "txHash": "0xa2b09a280ea6ffcd5e027988899f65de99945bff0818ea24a08b1739b44c7bd9",
+      "blockHash": "0x2174af372a9a43e96276d0799705b665968511bbb70b59786a66d400516d634b",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116575,
+      "extrinsicIndex": "16116575-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "note-unrequested-preimage",
+      "txHash": "0xfa7dcc97317cc14d22bf613e25629936a05253a0b42cc41ed2aa7a9dda7b4308",
+      "blockHash": "0x240c8cd1bf705509012daa33d8941cb002f54ba5a6fb532a883203054fd5bc8d",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116592,
+      "extrinsicIndex": "16116592-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "unnote-unrequested-preimage",
+      "txHash": "0x69c6c993191f6d631642cd3c2a838d48080c2eb55b0fc4d19615149e7a5ebcd7",
+      "blockHash": "0xc51894bc6b8d52a1b8b38f3107a80aa0ef77fd1cb50556f86a8f2b8d58d8c151",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116609,
+      "extrinsicIndex": "16116609-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "submit-isolated-referendum",
+      "txHash": "0x3c53ba087ef4adfa41b9ebd5bd3292fa7f6bd652dfc02ebd3352899003e2f5cd",
+      "blockHash": "0x160eceba3c9bf478f7f0757bd7d7c735a4d3c3a6ae611a90a19cb0f321db5c94",
+      "referendumIndex": 160,
+      "scenarioStatus": "passed",
+      "blockNumber": 16116628,
+      "extrinsicIndex": "16116628-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "vote-standard-aye",
+      "txHash": "0x1440fc3fb49220e812476a105c128834746d6f153541ba4351ce63e19b9539da",
+      "blockHash": "0x366bfad15915ede76f1fab645a42e48cec54fa376acc858ffb1f7139c971820c",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116645,
+      "extrinsicIndex": "16116645-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "change-conviction",
+      "txHash": "0xfe984b6e68d08a1ba17d9cc88bf088efd41b59f5ce5220ad91579bfd659688aa",
+      "blockHash": "0x56e5cf43fcc6fac1758bcac3f8c8164f517164251ad257ee1deab351a2349ee3",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116660,
+      "extrinsicIndex": "16116660-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "vote-split",
+      "txHash": "0xd130290ff08840f678d76a9766540ced82d60045232ab7a569fcf64a8af0a345",
+      "blockHash": "0x5f980e271c3f190cb717826b392afd1e27c3331f554497c438e1181ab3707a92",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116676,
+      "extrinsicIndex": "16116676-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "vote-split-abstain",
+      "txHash": "0x69e2eb2467ff191ec34d1c7764216d869f257ac72ae0b7867d7e06d7d92eeb8d",
+      "blockHash": "0x43b6db450d939e9f2511d87732167e1674469e79bbc46ebc4a95bf606412100a",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116693,
+      "extrinsicIndex": "16116693-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "vote-standard-nay",
+      "txHash": "0x23d52e23b7ea0ad9ce9fe318452de88ee2c954acee8d026ca29abad1e189be83",
+      "blockHash": "0x3acf75bc30341bb1ff9d079c21457c140264dd596947164c3fddfac80f47f299",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116709,
+      "extrinsicIndex": "16116709-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "remove-vote-and-unlock",
+      "txHash": "0x7468078fee7501fe3aac36d62126e813064145d853e725545f7539385fc39ddf",
+      "blockHash": "0xac272afd0acd7dd08ee1afbe72cdca010b0b30162e2480aa515c90315ae8e604",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116725,
+      "extrinsicIndex": "16116725-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "delegate",
+      "txHash": "0xb3f1b0d823bc95e13ff81df18a48c87bf123ffd462f027927f8f720ce097f5d3",
+      "blockHash": "0xc33cfb7ad1c4b194a4538082441a33294610175f718f210e4daff0e126ee961f",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116741,
+      "extrinsicIndex": "16116741-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "replace-delegation",
+      "txHash": "0xa585bee2e1e07ed4ae22bd00329d01bef8a93b0a6b18e9770aac7ac168d39ab8",
+      "blockHash": "0xd15d0769ed77794625ea427dbe7d58ec73511f1c40b45366d4e648e43aa82927",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116759,
+      "extrinsicIndex": "16116759-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "delegate-second-track",
+      "txHash": "0xc668c80de002d0b8423da05594a0af4874d33572fd1fb1a4a8e24010a0d94705",
+      "blockHash": "0xf196252fee45c7d36852abdd1b4d379849ff210a45058c62dcfa0ccd0bd330ec",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116775,
+      "extrinsicIndex": "16116775-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "batch-undelegate",
+      "txHash": "0xb9b836b49073ae757a6ba861ed7b737e98390adc6fe47349850994689dd1e512",
+      "blockHash": "0xe007b214b84cd95f9ba23cf15612a933cd6bf183fae86eec1f4ef12d035d7317",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116792,
+      "extrinsicIndex": "16116792-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "unlock-delegation-tracks",
+      "txHash": "0xd07a5f221b04aaef7f2260c63d3e70008e7769be70eac4ead564ada3bde917b8",
+      "blockHash": "0xec70f3c5465e891bf00cdc01f4800cb815b8996c9951d9f7f8701a80ddbf45da",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116810,
+      "extrinsicIndex": "16116810-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "add-governance-proxy",
+      "txHash": "0x8e6383a5374db562564def95c7ff65e9ae80d7f9edb2778e66c9b0eeab204fa6",
+      "blockHash": "0xc8881762576c90bb4853dbddf816934a0cf8b281d524fae79929f970fef2b362",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116827,
+      "extrinsicIndex": "16116827-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "proxy-vote-full-real-balance",
+      "txHash": "0x8894dfdb99a194009290b32d5cc8790990b1eddfee510bca5bf1c4a914ac05de",
+      "blockHash": "0xba18bf2c04b7d680076625db8e225f96bb0aeb002b900e75a379c6a1d3be8960",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116843,
+      "extrinsicIndex": "16116843-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "proxy-remove-vote-and-unlock",
+      "txHash": "0x340548f00474bd65a137372627cabdc8792ab31748e8bfde1789b764841ffa5e",
+      "blockHash": "0xc017abc82d9278b427acd99bb8c3bac10d77926c163bded0c23fb6803123c03c",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116862,
+      "extrinsicIndex": "16116862-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "remove-governance-proxy",
+      "txHash": "0xa5a6b863a279e19027aa2d2388c3f8d493f9db1098908e372a89576372d3d429",
+      "blockHash": "0x4112c19d50912d42a7fa5ce6bc4256428ac7c6e29b97f495315df636aa129dcb",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116878,
+      "extrinsicIndex": "16116878-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "refund-requested-preimage",
+      "txHash": "0x451437ddb2889e6a96e739005bf0803589bf515c9c83b0700fc5fd783aca9f8b",
+      "blockHash": "0xdec4a54f9aad35ceb8a61d080bf9cf02b385612f7e9c50b407f36f3cefa0acc8",
+      "scenarioStatus": "failed",
+      "scenarioError": "The expression evaluated to a falsy value:\n\n  assert(status?.requested)\n",
+      "blockNumber": 16116894,
+      "extrinsicIndex": "16116894-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "restore-preimage",
+      "txHash": "0x4dfa63f72377b2d1c10b8d6894ed63f1e952f0d521651e2cf88bec0ed309141c",
+      "blockHash": "0x1cc24115e569ccc87b8deda0f292909afc0a161db1bbe1f2b238a98c98ab2432",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116952,
+      "extrinsicIndex": "16116952-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "vote-aye",
+      "txHash": "0xb108643ea31019bd7dd1746fd9e27e10e597a72865b20b5edec64ff32bc38771",
+      "blockHash": "0x41a16cb8c5e33d218255203ea79373b93e6f72dd685bae67dc7b1344c89d339b",
+      "scenarioStatus": "passed",
+      "blockNumber": 16116996,
+      "extrinsicIndex": "16116996-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "vote-split",
+      "txHash": "0xce292780de21391b1f637249bfc14054b368c793e42a7b2e78af7510bc35d718",
+      "blockHash": "0xbda866c225eb319c959d5e9debfb46de9d67e27410efc4c30b7f39397a507a46",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117071,
+      "extrinsicIndex": "16117071-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "vote-abstain",
+      "txHash": "0xd5806c31764314c5a968c2d1f9d56a2317c52b0ac7bcd399446263b3b4ed78be",
+      "blockHash": "0x10817de1bedab4239694597b942dfc9fc3e24fd193378f77dfd5c3934faa9352",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117177,
+      "extrinsicIndex": "16117177-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "remove-unlock",
+      "txHash": "0xfb780bb0be3cbb527426b9c1b8d0458cbb46972a0bf0255c6a34f1a877e3e419",
+      "blockHash": "0x2090175d728ffc5b8e7eb16cc0a75a0f6b2a89a8ccce862fb4b9daeb57a0552f",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117341,
+      "extrinsicIndex": "16117341-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "delegate",
+      "txHash": "0x9a2261253d1cc6d6000f5d872635614117a6b6b2fda8b93e1868c769501d794b",
+      "blockHash": "0x04a1762d5da5082dc91357cbe43a53baa5921e2e16636c9722c9b569ef10a9c5",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117377,
+      "extrinsicIndex": "16117377-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "undelegate",
+      "txHash": "0x265eb9c6e8cce4e53ec10bdfb5d9cb338797af86aca34a9264d01e5a1039b222",
+      "blockHash": "0x31b3bfc4ac409a9718b901c436a1ae2d680547d05c2ca95640a705bd91660a65",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117431,
+      "extrinsicIndex": "16117431-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "undelegate-unlock",
+      "txHash": "0x0130d99c4fd19ab619b7b819faee305fab843093145d94b59edd7d99740973d4",
+      "blockHash": "0xe9abf5ec1c2e23457ce0420dfa21c1e6b9d5df9781bc134959b9bc9f9ae89359",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117447,
+      "extrinsicIndex": "16117447-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "decision-deposit",
+      "txHash": "0x922af22c58370f9cd15c0dc51432b4fae9fd3e7dbba495fc56cfc5ffa62f9909",
+      "blockHash": "0x084912287c36d10849c3ba80679cf58d1b46aecd2fabc403d83a6e5aecf01bff",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117473,
+      "extrinsicIndex": "16117473-2",
+      "dispatch": "ExtrinsicSuccess"
+    },
+    {
+      "operation": "return-actor-funds",
+      "txHash": "0x8023f8ee2ffd7476d25d8802471a7c8f86383b0f0af6a04c728f06723003c9af",
+      "blockHash": "0xb0db1536db18317670435a56c26d6dd28edbc4e90aeb379d665f40c3fc322dd8",
+      "scenarioStatus": "passed",
+      "blockNumber": 16117513,
+      "extrinsicIndex": "16117513-2",
+      "dispatch": "ExtrinsicSuccess"
+    }
+  ],
+  "final": {
+    "account": {
+      "nonce": 27,
+      "consumers": 1,
+      "providers": 1,
+      "sufficients": 0,
+      "data": {
+        "free": 49885605839922,
+        "reserved": 114010300000,
+        "frozen": 0,
+        "flags": "0x80000000000000000000000000000000"
+      }
+    },
+    "actorAccount": {
+      "nonce": 0,
+      "consumers": 0,
+      "providers": 0,
+      "sufficients": 0,
+      "data": {
+        "free": 0,
+        "reserved": 0,
+        "frozen": 0,
+        "flags": "0x80000000000000000000000000000000"
+      }
+    },
+    "voting": {
+      "now": 2065702,
+      "voteLockingPeriod": 100800,
+      "trackNames": {},
+      "tracks": [
+        {
+          "trackId": 30,
+          "trackName": "small tipper",
+          "lock": "0",
+          "votes": [],
+          "prior": null,
+          "delegated": "0",
+          "received": {
+            "votes": "0",
+            "capital": "0"
+          }
+        },
+        {
+          "trackId": 31,
+          "trackName": "big tipper",
+          "lock": "0",
+          "votes": [],
+          "prior": null,
+          "delegated": "0",
+          "received": {
+            "votes": "0",
+            "capital": "0"
+          }
+        }
+      ]
+    },
+    "actorVoting": {
+      "now": 2065702,
+      "voteLockingPeriod": 100800,
+      "trackNames": {},
+      "tracks": [
+        {
+          "trackId": 30,
+          "trackName": "small tipper",
+          "lock": "0",
+          "votes": [],
+          "prior": null,
+          "delegated": "0",
+          "received": {
+            "votes": "0",
+            "capital": "0"
+          }
+        },
+        {
+          "trackId": 31,
+          "trackName": "big tipper",
+          "lock": "0",
+          "votes": [],
+          "prior": null,
+          "delegated": "0",
+          "received": {
+            "votes": "0",
+            "capital": "0"
+          }
+        }
+      ]
+    },
+    "tally": {
+      "aye": "0",
+      "nay": "0",
+      "supportAmount": "0",
+      "approval": null
+    },
+    "referendum": {
+      "ongoing": {
+        "track": 30,
+        "origin": {
+          "origins": "SmallTipper"
+        },
+        "proposal": {
+          "lookup": {
+            "hash": "0x6ec548af963080dde0364fcf0ea85e720b7b9577bd11cd0bf2cba148f1081d1d",
+            "len": 39
+          }
+        },
+        "enactment": {
+          "after": 10
+        },
+        "submitted": 2065378,
+        "submissionDeposit": {
+          "who": "5GpePZkwtdFBoHxDJN5GAkNob2oyhkahJGD2UY3jx6dpYPvi",
+          "amount": 100000000000
+        },
+        "decisionDeposit": {
+          "who": "5GpePZkwtdFBoHxDJN5GAkNob2oyhkahJGD2UY3jx6dpYPvi",
+          "amount": 10000000000
+        },
+        "deciding": {
+          "since": 2065662,
+          "confirming": null
+        },
+        "tally": {
+          "ayes": 0,
+          "nays": 0,
+          "support": 0
+        },
+        "inQueue": false,
+        "alarm": [
+          2166462,
+          [
+            2166462,
+            0
+          ]
+        ]
+      }
+    },
+    "preimage": {
+      "unrequested": {
+        "ticket": [
+          "5GpePZkwtdFBoHxDJN5GAkNob2oyhkahJGD2UY3jx6dpYPvi",
+          4010300000
+        ],
+        "len": 39
+      }
+    },
+    "proxies": [
+      [],
+      0
+    ]
+  }
+}
