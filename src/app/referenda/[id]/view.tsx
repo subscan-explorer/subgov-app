@@ -94,7 +94,7 @@ export function ReferendumView({
         <StatusBadge status={r.status} />
         <TrackBadge label={trackLabel} />
         {deadline ? <span className="text-xs text-mute">{deadline}</span> : null}
-        <SubscanLink kind="referenda_v2" value={r.id} className="text-xs">
+        <SubscanLink kind="referenda_v2" value={r.id} variant="action">
           View on Subscan
         </SubscanLink>
       </div>

@@ -5,7 +5,7 @@ import { useSubmissionLock, useWalletScope } from "@/hooks/use-submission-lock";
 import { ProxyNote } from "@/components/wallet-extras";
 import { Modal } from "@/components/modal";
 import { useApp } from "@/components/app-state";
-import { Badge, Button, Checkbox, ModuleHeader, Panel, TextButton } from "@/components/ui";
+import { ArrowLink, Badge, Button, ButtonLink, Checkbox, ModuleHeader, Panel, TextButton } from "@/components/ui";
 import { useChain, useChainHref } from "@/hooks/use-chain-href";
 import type { ChainConfig } from "@/lib/chains";
 import { planckToToken, shortAddr } from "@/lib/format";
@@ -201,7 +201,10 @@ export function AccountDelegations() {
       ) : delegations == null ? (
         <p className="text-sm text-mute" role="status">Reading delegations from {chain.name}…</p>
       ) : delegations.length === 0 ? (
-        <p className="text-sm text-mute">This account is not delegating on any OpenGov track. <Link className="text-link" href={chainHref("/delegation/")}>Find a delegate</Link></p>
+        <div className="flex flex-col items-start gap-3">
+          <p className="text-sm text-mute">This account is not delegating on any OpenGov track.</p>
+          <ArrowLink href={chainHref("/delegation/")}>Find a delegate</ArrowLink>
+        </div>
       ) : (
         <ul className="divide-y divide-line">
           {delegations.map((item) => (
@@ -213,7 +216,7 @@ export function AccountDelegations() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <Link className="text-sm text-link" href={chainHref("/delegation/")}>Change</Link>
+                <ButtonLink variant="ghost" href={chainHref("/delegation/")}>Change</ButtonLink>
                 <UndelegateDialog chain={chain} delegations={[item]} triggerLabel="Undelegate" onDone={reload} />
               </div>
             </li>

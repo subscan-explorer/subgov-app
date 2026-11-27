@@ -5,7 +5,7 @@ import { chains } from "@/lib/chains";
 import { activeNetwork } from "@/lib/network-server";
 import { liveReferenda, liveTracks } from "@/lib/subscan-data";
 import { MyTodo } from "@/components/overview-extras";
-import { ModuleHeader, Panel } from "@/components/ui";
+import { ArrowLink, ModuleHeader, Panel } from "@/components/ui";
 import { withChain } from "@/lib/chain-query";
 import Link from "next/link";
 import { treasuryLive } from "@/lib/subscan-treasury";
@@ -58,8 +58,8 @@ export default async function OverviewPage({ searchParams }: { searchParams: Pro
       <div className="mt-6 grid gap-6 xl:grid-cols-2">
         <MyTodo />
         <Panel padding="content">
-          <ModuleHeader title="In flight by track" meta={<Link className="text-link" href={withChain("/referenda/tracks/", network)}>All tracks</Link>} />
-          {!countsAvailable ? <p className="text-sm text-mute">Per-track activity is not available yet. <Link className="text-link" href={withChain("/referenda/", network, { status: "active" })}>View active referenda</Link></p> : inFlight.length === 0 ? <p className="text-sm text-mute">No referenda are in flight.</p> : (
+          <ModuleHeader title="In flight by track" meta={<ArrowLink size="sm" href={withChain("/referenda/tracks/", network)}>All tracks</ArrowLink>} />
+          {!countsAvailable ? <div className="flex flex-col items-start gap-3"><p className="text-sm text-mute">Per-track activity is not available yet.</p><ArrowLink href={withChain("/referenda/", network, { status: "active" })}>View active referenda</ArrowLink></div> : inFlight.length === 0 ? <p className="text-sm text-mute">No referenda are in flight.</p> : (
             <ul className="divide-y divide-line text-sm">
               {inFlight.map((track) => (
                 <li key={track.id} className="flex justify-between gap-3 py-2">

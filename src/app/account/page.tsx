@@ -35,9 +35,9 @@ export default function Page() {
           <MetaItem label="Wallet" value={walletSource ?? "—"} />
           <MetaItem label="Network" value={`${chain.name}${chain.testnet ? " · testnet" : ""}`} />
         </MetaList>
-        <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+        <div className="mt-5 flex flex-wrap gap-3">
           <ArrowLink href={chainHref(`/user/${account}/`)}>Public profile and votes</ArrowLink>
-          <a className="inline-flex items-center gap-1 text-sm text-link" href={`${chain.subscanUrl}/account/${account}`} target="_blank" rel="noreferrer">View on Subscan ↗</a>
+          <ArrowLink href={`${chain.subscanUrl}/account/${account}`} external>View on Subscan</ArrowLink>
         </div>
       </Panel>
       <AccountDelegations />

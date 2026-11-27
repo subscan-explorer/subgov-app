@@ -53,7 +53,7 @@ export default async function Page({
       <PageHeader back={back} kicker={`Bounty #${id}`} title={rowTitle(b, `Bounty #${id}`)} />
       <div className="flex flex-wrap items-center gap-2">
         <StatusBadge status={rowStatus(b)} />
-        <SubscanLink kind="bounty" value={b.proposal_id ?? b.bounty_id ?? id} className="text-xs">
+        <SubscanLink kind="bounty" value={b.proposal_id ?? b.bounty_id ?? id} variant="action">
           View on Subscan
         </SubscanLink>
       </div>

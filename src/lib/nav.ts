@@ -21,8 +21,7 @@ export const nav: NavGroup[] = [
     { href: "/fellowship/", label: "Overview", exact: true }, { href: "/fellowship/referenda/", label: "Referenda" }, { href: "/fellowship/tracks/", label: "Tracks" },
   ] },
   { label: "Personal", items: [
-    { href: "/account/", label: "Account", exact: true }, { href: "/account/votes/", label: "My votes" },
-    { href: "/account/deposits/", label: "My deposits" }, { href: "/delegation/mine/", label: "My delegations" },
+    { href: "/account/", label: "Account" },
     { href: "/settings/", label: "Settings" },
   ] },
 ];

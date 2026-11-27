@@ -10,7 +10,12 @@ import { Search } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const pages = nav.flatMap((group) => group.items.map((item) => ({ href: item.href, label: item.label, group: group.label })));
+const pages = [
+  ...nav.flatMap((group) => group.items.map((item) => ({ href: item.href, label: item.label, group: group.label }))),
+  { href: "/account/votes/", label: "My votes", group: "Personal" },
+  { href: "/account/deposits/", label: "My deposits", group: "Personal" },
+  { href: "/delegation/mine/", label: "My delegations", group: "Personal" },
+];
 
 /** ⌘K / Ctrl+K command palette: record numbers, addresses, identities, titles (when the backend serves them) and pages (#118). */
 export function SearchPalette() {

@@ -1,5 +1,5 @@
 import { Addr, Timeline } from "@/components/gov";
-import { Badge, DetailLayout, MetaItem, MetaList, ModuleHeader, PageHeader, Panel } from "@/components/ui";
+import { ArrowLink, Badge, DetailLayout, MetaItem, MetaList, ModuleHeader, PageHeader, Panel } from "@/components/ui";
 import { withChain } from "@/lib/chain-query";
 import type { SubscanNetwork } from "@/lib/pubfi";
 import { rowAddress, rowAmountDisplay, rowStatus, rowTitle, type TreasuryRow } from "@/lib/subscan-treasury";
@@ -27,7 +27,7 @@ export function SpendView({ spend: s, network, post }: { spend: TreasuryRow; net
         <div className="flex flex-wrap items-center gap-2">
           <SpendDetailStatus status={rowStatus(s)} />
           {historical ? <Badge>Relay history</Badge> : null}
-          {explorer ? <a href={`${explorer}/treasury_spend/${id}`} className="text-xs text-link" target="_blank" rel="noreferrer">View on Subscan ↗</a> : null}
+          {explorer ? <ArrowLink href={`${explorer}/treasury_spend/${id}`} external size="sm">View on Subscan</ArrowLink> : null}
         </div>
         <DetailLayout
           main={<>

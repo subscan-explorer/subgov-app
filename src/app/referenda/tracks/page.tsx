@@ -31,7 +31,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ c
           {tracks.map((track) => (
             <Link key={track.id} href={withChain(`/referenda/tracks/${track.id}/`, network)} className="grid gap-3 px-4 py-4 hover:bg-panel-2 focus-visible:outline-2 focus-visible:outline-link sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:px-5">
               <div className="min-w-0">
-                <div className="font-semibold"><span className="num mr-2 text-link">#{track.id}</span>{track.displayName}</div>
+                <div className="font-semibold"><span className="num mr-2 text-paper">#{track.id}</span>{track.displayName}</div>
                 <dl className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-xs">
                   {([["Prepare", track.preparePeriod], ["Decision", track.decisionPeriod], ["Confirm", track.confirmPeriod], ["Enactment", track.minEnactmentPeriod]] as const).map(([label, blocks]) => (
                     <div key={label} className="flex gap-1.5"><dt className="text-mute">{label}</dt><dd>{formatBlockPeriod(blocks, secondsPerBlock)}</dd></div>

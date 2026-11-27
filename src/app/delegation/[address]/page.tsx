@@ -66,10 +66,12 @@ export default async function Page({
         title={display !== decoded ? display : shortAddr(decoded, 8)}
         actions={<DelegateDialog target={decoded} label={display !== decoded ? display : undefined} tracks={tracks} />}
       />
-      <div className="-mt-3 flex min-w-0 items-center gap-1.5">
-        <span className="num truncate text-sm text-mute" title={decoded}>{shortAddr(decoded, 10)}</span>
-        <CopyButton value={decoded} />
-        <ArrowLink href={withChain(`/user/${encodeURIComponent(decoded)}/`, network)} className="ml-3 text-xs">Votes and holdings</ArrowLink>
+      <div className="-mt-3 flex min-w-0 flex-wrap items-center gap-3">
+        <span className="inline-flex min-w-0 max-w-full items-center gap-1.5">
+          <span className="num truncate text-sm text-mute" title={decoded}>{shortAddr(decoded, 10)}</span>
+          <CopyButton value={decoded} />
+        </span>
+        <ArrowLink href={withChain(`/user/${encodeURIComponent(decoded)}/`, network)} size="sm">Votes and holdings</ArrowLink>
       </div>
       {active || supporters.length ? (
         <StatStrip

@@ -12,7 +12,7 @@ env.context={votable:100000000000n,trackLock:0n,existing:null,delegating:null};
 env.submit=(args)=>new Promise((resolve,reject)=>{env.calls.push({args,resolve,reject});args.onProgress?.('Connecting to network');});
 const root=new URL('../src/',import.meta.url);
 const prefix="const e=globalThis[Symbol.for('subgov.interactionTest')];";
-const ui="import React from 'react'; const wrap=(tag)=>(p)=>React.createElement(tag,p,p.children); "+['Button:button','TextButton:button','IconButton:button','Input:input','Select:select','Checkbox:input','Textarea:textarea','Panel:div','Badge:span','ModuleHeader:header','PageHeader:header','Field:label','ChoiceButton:button','ChoiceGroup:div','ArrowLink:a','MetaList:dl','MetaItem:dd','StatusBadge:span','RecordRow:div','TrackBadge:span'].map(s=>{let[n,t]=s.split(':');return `export const ${n}=wrap('${t}');`;}).join('');
+const ui="import React from 'react'; const wrap=(tag)=>(p)=>React.createElement(tag,p,p.children); "+['Button:button','ButtonLink:a','TextButton:button','IconButton:button','Input:input','Select:select','Checkbox:input','Textarea:textarea','Panel:div','Badge:span','ModuleHeader:header','PageHeader:header','Field:label','ChoiceButton:button','ChoiceGroup:div','ArrowLink:a','MetaList:dl','MetaItem:dd','StatusBadge:span','RecordRow:div','TrackBadge:span'].map(s=>{let[n,t]=s.split(':');return `export const ${n}=wrap('${t}');`;}).join('');
 const mocks={
  '@/components/app-state':`${prefix} export const useApp=()=>e.app;`,
  '@/components/ui':ui,

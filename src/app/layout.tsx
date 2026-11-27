@@ -26,11 +26,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" suppressHydrationWarning>
       <body className="antialiased" suppressHydrationWarning>
         <ThemeProvider>
-          <AppStateProvider initialChainId={initialChainId}>
-            <Suspense fallback={<div className="min-h-screen bg-ink" />}>
+          {/* Hydrate account consumers before restoring browser-only wallet state. */}
+          <Suspense fallback={<div className="min-h-screen bg-ink" />}>
+            <AppStateProvider initialChainId={initialChainId}>
               <Shell>{children}</Shell>
-            </Suspense>
-          </AppStateProvider>
+            </AppStateProvider>
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>

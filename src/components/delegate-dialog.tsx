@@ -5,7 +5,7 @@ import { useSubmissionLock, useWalletScope } from "@/hooks/use-submission-lock";
 import { ProxyNote } from "@/components/wallet-extras";
 import { Modal } from "@/components/modal";
 import { useApp } from "@/components/app-state";
-import { Badge, Button, Checkbox, Field, Panel, Select, TextButton } from "@/components/ui";
+import { ArrowLink, Badge, Button, Checkbox, Field, Panel, Select, TextButton } from "@/components/ui";
 import { ConvictionFields } from "@/components/conviction-field";
 import { governanceChains } from "@/lib/chains";
 import { shortAddr } from "@/lib/format";
@@ -17,7 +17,6 @@ import { walletCanSignOnChain } from "@/lib/wallet-chain";
 import { preconnectChainApi } from "@/lib/chain-api";
 import { formatPlanck, useAccountDelegations } from "@/components/undelegate";
 import { useChainFromUrl, useChainHref } from "@/hooks/use-chain-href";
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export function DelegateDialog(props: { target: string; label?: string; tracks: Track[] }) {
@@ -155,7 +154,7 @@ function DelegateDialogSession({ target, label, tracks }: { target: string; labe
                       This track is delegated {sameTarget ? "to this delegate" : <>to <span className="num text-paper" title={current.target}>{shortAddr(current.target, 6)}</span></>}: <b className="num font-semibold text-paper">{formatPlanck(current.balance, chain)} · {convictionFromName(current.conviction)}</b>.
                       Signing replaces it in one batch. The previous balance stays locked for its original conviction period.
                     </p>
-                    <Link className="w-fit text-link" href={chainHref("/account/")}>Undelegate it from your account page instead</Link>
+                    <ArrowLink size="sm" href={chainHref("/account/")}>Undelegate it from your account page instead</ArrowLink>
                   </div>
                 ) : null}
                 {loadError ? (

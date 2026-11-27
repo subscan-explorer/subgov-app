@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { BarList, PendingBackend } from "@/components/pending-backend";
-import { ModuleHeader, PageHeader, Panel, StatStrip } from "@/components/ui";
+import { ButtonLink, ModuleHeader, PageHeader, Panel, StatStrip } from "@/components/ui";
 import { withChain } from "@/lib/chain-query";
 import { governanceChains } from "@/lib/chains";
 import { activeNetwork } from "@/lib/network-server";
@@ -36,7 +36,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ c
         kicker={chain.name}
         title="Referendum statistics"
         description={`Pass rate across all OpenGov tracks, by month and by track. Months are UTC and grouped by ${timeAxis === "submitted" ? "submission" : "final outcome"} time.`}
-        actions={<a className="text-sm text-link" href={withChain("/referenda/statistics/", network, { axis: timeAxis === "submitted" ? undefined : "submitted" })}>Group by {timeAxis === "submitted" ? "outcome" : "submission"} time</a>}
+        actions={<ButtonLink variant="ghost" className="subscan-action-link" href={withChain("/referenda/statistics/", network, { axis: timeAxis === "submitted" ? undefined : "submitted" })}>Group by {timeAxis === "submitted" ? "outcome" : "submission"} time</ButtonLink>}
       />
       {summary.available ? (
         <StatStrip items={[

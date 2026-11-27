@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { excerptTitle, formatStatusLabel, statusTone } from "@/lib/format";
 import { cn } from "@/lib/utils";
@@ -281,10 +281,10 @@ export function PageHeader({
   return (
     <div className="flex flex-col gap-4">
       {back ? (
-        <Link href={back.href} className="back-link group inline-flex w-fit items-center gap-1.5 text-sm text-link">
+        <ButtonLink href={back.href} variant="ghost" size="sm" className="subscan-action-link back-link group w-fit">
           <ArrowLeft size={16} aria-hidden="true" className="transition-transform duration-[var(--dur-fast)] ease-[var(--ease-out)] group-hover:-translate-x-0.5" />
           {back.label}
-        </Link>
+        </ButtonLink>
       ) : null}
       <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
         <div className="min-w-0 w-full md:w-auto md:flex-1">
@@ -326,12 +326,13 @@ export function SectionHeader({
   );
 }
 
-export function ArrowLink({ href, children, className }: { href: string; children: React.ReactNode; className?: string }) {
+export function ArrowLink({ children, className, external = false, size = "md", ...props }: ComponentProps<typeof Link> & { external?: boolean; size?: ButtonSize }) {
+  const Icon = external ? ArrowUpRight : ArrowRight;
   return (
-    <Link href={href} className={cn("group inline-flex w-fit items-center gap-1 text-sm text-link", className)}>
+    <ButtonLink {...props} variant="ghost" size={size} className={cn("subscan-action-link group w-fit", className)} target={external ? "_blank" : props.target} rel={external ? "noreferrer" : props.rel}>
       {children}
-      <ArrowRight size={15} aria-hidden="true" className="transition-transform duration-[var(--dur-fast)] ease-[var(--ease-out)] group-hover:translate-x-0.5" />
-    </Link>
+      <Icon size={15} aria-hidden="true" className={cn("shrink-0 transition-transform duration-[var(--dur-fast)] ease-[var(--ease-out)]", !external && "group-hover:translate-x-0.5")} />
+    </ButtonLink>
   );
 }
 

@@ -18,7 +18,7 @@ env.discussionRequest = async (query, variables, options) => { env.requests.push
 const prefix = "const e=globalThis[Symbol.for('subgov.clientTest')];";
 const mocks = {
   "@/components/app-state": `${prefix} export const useApp=()=>e.app;`,
-  "@/components/ui": "export const MetaItem=()=>null,MetaList=()=>null,ModuleHeader=()=>null,Panel=()=>null; export const StatusBadge=({status})=>status;",
+  "@/components/ui": "export const ArrowLink=()=>null,MetaItem=()=>null,MetaList=()=>null,ModuleHeader=()=>null,Panel=()=>null; export const StatusBadge=({status})=>status;",
   "@/components/call-tree-view": "export const CallTreeView=()=>null;",
   "@/lib/call-chain": `${prefix} export const readReferendumOnChain=(a)=>e.readOnChain(a);`,
   "@/lib/call-tree": "export const callCount=()=>1;",

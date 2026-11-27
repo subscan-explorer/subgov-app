@@ -1,7 +1,7 @@
 "use client";
 
 import { TxDialog } from "@/components/tx-dialog";
-import { ModuleHeader, Panel, StatusBadge } from "@/components/ui";
+import { ArrowLink, ModuleHeader, Panel, StatusBadge } from "@/components/ui";
 import { useChain, useChainHref } from "@/hooks/use-chain-href";
 import { cleanDescription, spendAction, spendStatusLabel } from "@/lib/asset-kind";
 import { formatBaseUnits } from "@/lib/format";
@@ -36,7 +36,7 @@ export function TreasuryOnChain() {
   const { data, error } = useChainRead<TreasuryOverview>(() => readTreasuryOverview(chain), [chain.rpc, chain.genesisHash]);
   return (
     <Panel padding="content">
-      <ModuleHeader title="Treasury account" meta={data ? <a className="text-link" href={`${chain.subscanUrl}/account/${data.account}`} target="_blank" rel="noreferrer">Subscan ↗</a> : undefined} />
+      <ModuleHeader title="Treasury account" meta={data ? <ArrowLink href={`${chain.subscanUrl}/account/${data.account}`} external size="sm">Subscan</ArrowLink> : undefined} />
       {error ? <p className="text-sm text-mute">Could not read the treasury from {chain.name}: {error}</p> : !data ? <p className="text-sm text-mute" role="status">Reading the treasury from {chain.name}…</p> : (
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {data.balances.map((balance) => (

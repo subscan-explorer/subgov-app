@@ -2,12 +2,11 @@
 
 import { useApp } from "@/components/app-state";
 import { useAccountVoting } from "@/components/account-votes";
-import { ModuleHeader, Panel } from "@/components/ui";
+import { ArrowLink, Button, ModuleHeader, Panel } from "@/components/ui";
 import { formatPlanck } from "@/components/undelegate";
 import { useChain, useChainHref } from "@/hooks/use-chain-href";
 import { unlockPlan } from "@/lib/account-voting";
 import { accountDeposits } from "@/lib/gov-actions";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 /** "My to-do" for the connected account: unlockable balance, open votes and refundable deposits. */
@@ -30,7 +29,8 @@ export function MyTodo() {
     return (
       <Panel padding="content">
         <ModuleHeader title="My to-do" />
-        <p className="text-sm text-mute">Connect a wallet to see unlockable balance, open votes and deposits to refund. <button type="button" className="text-link" onClick={() => openWalletDialog()}>Connect</button></p>
+        <p className="text-sm text-mute">Connect a wallet to see unlockable balance, open votes and deposits to refund.</p>
+        <Button variant="ghost" className="mt-3" onClick={() => openWalletDialog()}>Connect</Button>
       </Panel>
     );
   }
@@ -46,10 +46,10 @@ export function MyTodo() {
       <ModuleHeader title="My to-do" />
       {error ? <p className="text-sm text-mute">Could not read {chain.name}.</p>
         : !snapshot ? <p className="text-sm text-mute" role="status">Reading your votes…</p>
-        : items.length === 0 ? <p className="text-sm text-mute">Nothing to do right now. <Link className="text-link" href={chainHref("/referenda/", { status: "deciding" })}>Browse deciding referenda</Link></p>
+        : items.length === 0 ? <div className="flex flex-col items-start gap-3"><p className="text-sm text-mute">Nothing to do right now.</p><ArrowLink href={chainHref("/referenda/", { status: "deciding" })}>Browse deciding referenda</ArrowLink></div>
         : (
           <ul className="flex flex-col gap-2 text-sm">
-            {items.map((item) => <li key={item.text}><Link className="text-link" href={chainHref(item.href)}>{item.text} →</Link></li>)}
+            {items.map((item) => <li key={item.text}><ArrowLink href={chainHref(item.href)}>{item.text}</ArrowLink></li>)}
           </ul>
         )}
     </Panel>
