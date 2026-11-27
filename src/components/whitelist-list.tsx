@@ -1,11 +1,10 @@
 "use client";
 
 import { PreimageDecode } from "@/components/preimage-actions";
-import { Panel } from "@/components/ui";
+import { ArrowLink, Panel } from "@/components/ui";
 import { DataNotice } from "@/components/data-notice";
 import { useChain, useChainHref } from "@/hooks/use-chain-href";
 import { getChainApi } from "@/lib/chain-api";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 /** Call hashes the Fellowship has whitelisted (`whitelist.whitelistedCall`), with their decoded preimage. */
@@ -39,7 +38,7 @@ function WhitelistForChain() {
         <div key={hash} className="flex flex-col gap-2 px-5 py-4 text-sm">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <span className="num break-all text-paper">{hash}</span>
-            <Link className="text-xs text-link" href={chainHref("/referenda/", { track: 1 })}>Whitelisted Caller referenda</Link>
+            <ArrowLink size="sm" href={chainHref("/referenda/", { track: 1 })}>Whitelisted Caller referenda</ArrowLink>
           </div>
           <PreimageDecode hash={hash} />
         </div>

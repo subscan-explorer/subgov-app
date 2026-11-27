@@ -7,8 +7,8 @@ SubGov started as a port of Subscan Explorer's styles and has since moved to its
 ## Theme and typography
 
 - Inter 4.1, self-hosted as an upright variable WOFF2 under the SIL Open Font License 1.1 (see `public/fonts/OFL.txt`). The variable font covers weights 100–900, including the existing 400, 500, 600 and 700 styles. Page titles 32px mobile / 40px desktop (Overview 44px), regular weight, -0.03em; section titles 20px regular; card/module titles 18px regular; body 14px; supporting 12–13px. Large figures are regular weight with a quieter tail (units, decimals, "/ total").
-- Light: canvas `#eef0f5`, cards `#ffffff`, soft fills `#f5f6f9`, text `#1b1b20`, secondary `#666572`, hairlines 8% ink, links `#0070d6` (4.9:1 on white).
-- Dark: canvas `#1d1c22`, cards `#28272e`, soft fills `#32313a`, text `#f4f4f7`, secondary `#b3b2bf`, hairlines 8% white, links `#3ca2ff`.
+- Light: canvas `#eef0f5`, cards `#ffffff`, soft fills `#f5f6f9`, text `#1b1b20`, secondary `#666572`, hairlines 8% ink, rich-text links `#0070d6` (4.9:1 on white).
+- Dark: canvas `#1d1c22`, cards `#28272e`, soft fills `#32313a`, text `#f4f4f7`, secondary `#b3b2bf`, hairlines 8% white, rich-text links `#3ca2ff`.
 - Accent: the brand gradient only — deciding/pending status dots, highlighted chart marks, the brand mark, the Overview hero tint. It never carries body text; text on accent surfaces uses `#9a1fa4` (light) / `#f3b0f7` (dark) on a soft tint.
 - Status is a dot + label: gradient = deciding/pending, ink = confirming, grey = preparing, green = passed/paid/executed, red = rejected. Aye/Nay keep `#6bc10e` / `#ff475d` for charts with darker reading colours for text.
 - Radii: cards 24px, list rows and wallet rows 16px, inputs 14px, menu items 12px, popovers 20px, buttons/badges/chips full pills.
@@ -38,6 +38,7 @@ Preserve governance values, precision, links, network query parameters, input va
 
 ## Composed interface rules
 
+- Link presentation accepted on 2026-11-27: standalone navigation uses soft capsule links through `ArrowLink` / `ButtonLink`; addresses, record IDs and inline references use neutral text with a subtle underline that strengthens on hover or focus. Keep real anchor destinations, network parameters and external-link behavior. Status colors, focus rings and rich proposal text retain their existing semantics.
 - Every titled content panel uses `ModuleHeader`: one full-width separator below the title and optional trailing metadata. Article headings and page-level section labels are separate roles.
 - Comment and data lists separate adjacent records only. No first/last decorative borders next to panel boundaries or header dividers.
 - Address/identity links have no decorative prefix dot; names wrap at words, while identifiers remain contained.

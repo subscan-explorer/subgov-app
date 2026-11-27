@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { DataNotice } from "@/components/data-notice";
 import { PendingBackend } from "@/components/pending-backend";
-import { ChoiceGroup, PageHeader, Panel } from "@/components/ui";
+import { ButtonLink, ChoiceGroup, PageHeader, Panel } from "@/components/ui";
 import { withChain } from "@/lib/chain-query";
 import { governanceChains } from "@/lib/chains";
 import { activeNetwork } from "@/lib/network-server";
@@ -35,11 +35,11 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ c
     <div className="flex flex-col gap-6">
       <PageHeader kicker={chain.name} title="Governance calendar" description="Referendum decision and confirmation deadlines, enactments, spend periods and bounty expiries. Future times are estimates from block times; all times UTC." />
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <Link className="rounded-full bg-panel px-3 py-2 text-sm text-mute hover:text-paper" href={href({ month: monthKey(year, month - 1), day: undefined })} aria-label="Previous month">←</Link>
           <h2 className="min-w-40 text-center text-lg">{title}</h2>
           <Link className="rounded-full bg-panel px-3 py-2 text-sm text-mute hover:text-paper" href={href({ month: monthKey(year, month + 1), day: undefined })} aria-label="Next month">→</Link>
-          <Link className="text-link text-sm" href={withChain("/calendar/", network, { type })}>Today</Link>
+          <ButtonLink variant="ghost" size="sm" href={withChain("/calendar/", network, { type })}>Today</ButtonLink>
         </div>
         <ChoiceGroup aria-label="Event type">
           {[undefined, ...TYPES].map((value) => (

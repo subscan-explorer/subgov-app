@@ -1,7 +1,7 @@
 "use client";
 
 import { TxDialog } from "@/components/tx-dialog";
-import { Badge, ModuleHeader, Panel, StatusBadge } from "@/components/ui";
+import { ArrowLink, Badge, ModuleHeader, Panel, StatusBadge } from "@/components/ui";
 import { formatPlanck } from "@/components/undelegate";
 import { useChainHref } from "@/hooks/use-chain-href";
 import { readAccountVoting, type AccountVotingSnapshot } from "@/lib/account-chain";
@@ -171,7 +171,10 @@ function AccountVotesForAccount({ chain, address, canSign }: { chain: ChainConfi
         </Panel>
       ))}
       {!voteCount && plan.lockedBefore === BigInt(0) ? (
-        <Panel padding="content"><p className="text-sm text-mute">No conviction votes or voting locks on {chain.name}. <Link className="text-link" href={chainHref("/referenda/", { status: "deciding" })}>Browse deciding referenda</Link></p></Panel>
+        <Panel padding="content" className="flex flex-col items-start gap-3">
+          <p className="text-sm text-mute">No conviction votes or voting locks on {chain.name}.</p>
+          <ArrowLink href={chainHref("/referenda/", { status: "deciding" })}>Browse deciding referenda</ArrowLink>
+        </Panel>
       ) : null}
     </div>
   );

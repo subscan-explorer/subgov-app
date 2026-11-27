@@ -96,7 +96,7 @@ export default async function Page({
               </ul>
             )}
             {referendaCount > Math.min(15, referenda.length) ? (
-              <a className="mt-3 inline-flex text-sm text-link" href={`${subscanUrl}/account/${decoded}`} target="_blank" rel="noreferrer">All {referendaCount.toLocaleString()} votes on Subscan ↗</a>
+              <ArrowLink className="mt-3" href={`${subscanUrl}/account/${decoded}`} external>All {referendaCount.toLocaleString()} votes on Subscan</ArrowLink>
             ) : null}
           </Panel>
           {history.length > 0 ? (

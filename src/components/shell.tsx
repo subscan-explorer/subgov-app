@@ -14,7 +14,7 @@ import { nav } from "@/lib/nav";
 import { cn } from "@/lib/utils";
 import { shortAddr } from "@/lib/format";
 import Link from "next/link";
-import { LayoutDashboard, Vote, Users, Landmark, Receipt, Gift, GraduationCap, ListChecks, UserRound, Settings, Menu, X, ChevronDown, ScrollText, SquareCheck, Coins, Handshake, Route, Activity, ChartColumn, Fish, FileCode, ShieldCheck, GitBranch, Layers, CalendarDays } from "lucide-react";
+import { LayoutDashboard, Vote, Users, Landmark, Receipt, Gift, GraduationCap, ListChecks, UserRound, Settings, Menu, X, ChevronDown, ScrollText, Route, Activity, ChartColumn, Fish, FileCode, ShieldCheck, GitBranch, Layers, CalendarDays } from "lucide-react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState, useTransition } from "react";
 
@@ -25,11 +25,16 @@ const navIcons: Record<string, typeof LayoutDashboard> = {
   "/fellowship/tracks/": ListChecks, "/account/": UserRound, "/settings/": Settings,
   "/referenda/tracks/": Route, "/votes/": Activity, "/referenda/statistics/": ChartColumn, "/referenda/whales/": Fish, "/preimages/": FileCode, "/whitelist/": ShieldCheck,
   "/treasury/child-bounties/": GitBranch, "/treasury/multiasset-bounties/": Layers, "/calendar/": CalendarDays,
-  "/account/votes/": SquareCheck, "/account/deposits/": Coins, "/delegation/mine/": Handshake,
 };
 
-function navMatches(item: { href: string; exact?: boolean }, pathname: string) {
+function navigationPath(pathname: string) {
   const normalized = pathname.replace(/\/$/, "") || "/";
+  // Personal delegations live under Account while retaining their existing URL.
+  return normalized === "/delegation/mine" || normalized.startsWith("/delegation/mine/") ? "/account" : normalized;
+}
+
+function navMatches(item: { href: string; exact?: boolean }, pathname: string) {
+  const normalized = navigationPath(pathname);
   const target = item.href.replace(/\/$/, "") || "/";
   return item.href === "/" || item.exact ? normalized === target : normalized === target || normalized.startsWith(`${target}/`);
 }
@@ -319,7 +324,7 @@ function AccountMenu({ account, identity, walletSource, accountHref, onSwitch, o
 
 /** "Polkadot / Treasury / Spends" — derived from the navigation so it never drifts from the sidebar. */
 function Breadcrumb({ chainName, pathname }: { chainName: string; pathname: string }) {
-  const normalized = pathname.replace(/\/$/, "") || "/";
+  const normalized = navigationPath(pathname);
   let match: { group: string; label: string; length: number } | null = null;
   for (const group of nav) {
     for (const item of group.items) {
